@@ -13,6 +13,3 @@ func main() {
 	os.Exit(1)
 	println("not printed")
 }
-
-// Output:
-// recover: os.Exit(1)

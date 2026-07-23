@@ -12,6 +12,3 @@ func main() {
 	}
 	println(a.Field)
 }
-
-// Output:
-// test

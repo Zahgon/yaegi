@@ -19,7 +19,3 @@ func main() {
 	fmt.Println(Foo, Bar, Baz)
 	fmt.Println(Asm, C, Java, Go)
 }
-
-// Output:
-// 0 1 2
-// 0 1 2 3

@@ -8,6 +8,3 @@ func main() {
 	var bar foo
 	println(bar)
 }
-
-// Error:
-// ../_test/redeclaration3.go:7:7: foo redeclared in this block

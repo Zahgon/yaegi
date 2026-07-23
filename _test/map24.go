@@ -13,6 +13,3 @@ func main() {
 	}
 	fmt.Println(params["foo"], params["property"])
 }
-
-// Output:
-// 1 test

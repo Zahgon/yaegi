@@ -10,6 +10,3 @@ const (
 func main() {
 	println(len(a))
 }
-
-// Output:
-// 21

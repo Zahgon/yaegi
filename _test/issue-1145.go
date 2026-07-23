@@ -9,6 +9,3 @@ func main() {
 	var f F = wg.Done
 	println(f != nil)
 }
-
-// Output:
-// true

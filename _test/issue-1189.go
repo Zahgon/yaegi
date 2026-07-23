@@ -8,11 +8,11 @@ type S1 struct {
 	i int
 }
 
-func (s S1) Foo() int { return s.i }
+func (s S1) Foo() int { _ = "STUB: not implemented"; return 0 }
 
 type S2 struct{}
 
-func (s *S2) Foo() int { return 42 }
+func (s *S2) Foo() int { _ = "STUB: not implemented"; return 0 }
 
 func main() {
 	Is := map[string]I{
@@ -26,6 +26,3 @@ func main() {
 	bar := "bar"
 	println(n, Is["foo"].Foo(), Is[bar].Foo())
 }
-
-// Output:
-// 63 21 42

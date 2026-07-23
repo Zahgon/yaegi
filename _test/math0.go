@@ -8,6 +8,3 @@ import (
 func main() {
 	fmt.Println(math.Cos(math.Pi))
 }
-
-// Output:
-// -1

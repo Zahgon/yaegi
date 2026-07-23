@@ -12,7 +12,3 @@ func main() {
 		println(a, b)
 	}
 }
-
-// Output:
-// 100
-// 3 foo

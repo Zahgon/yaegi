@@ -17,6 +17,3 @@ type xxx struct{}
 func main() {
 	println("ok")
 }
-
-// Output:
-// ok

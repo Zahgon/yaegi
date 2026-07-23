@@ -9,6 +9,3 @@ func main() {
 	c = a * b
 	fmt.Printf("c: %v %T", c, c)
 }
-
-// Output:
-// c: 4096 uint16

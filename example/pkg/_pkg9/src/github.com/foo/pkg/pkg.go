@@ -1,17 +1,5 @@
 package pkg
 
-import (
-	"fmt"
+func Here() string { _ = "STUB: not implemented"; return "" }
 
-	"github.com/foo/pkg/fromage"
-)
-
-func Here() string {
-	return "root"
-}
-
-func NewSample() func() string {
-	return func() string {
-		return fmt.Sprintf("%s %s", Here(), fromage.Hello())
-	}
-}
+func NewSample() func() string { _ = "STUB: not implemented"; return nil }

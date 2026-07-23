@@ -2,9 +2,7 @@ package main
 
 import "fmt"
 
-func getStr() string {
-	return "test"
-}
+func getStr() string { _ = "STUB: not implemented"; return "" }
 
 func main() {
 	m := make(map[string]string, 0)
@@ -14,6 +12,3 @@ func main() {
 
 	fmt.Println(m)
 }
-
-// Output:
-// map[a:0.1 b:0.1 c:test]

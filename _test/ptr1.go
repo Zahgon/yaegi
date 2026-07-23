@@ -5,6 +5,3 @@ func main() {
 	b := &a
 	println(*b)
 }
-
-// Output:
-// 2

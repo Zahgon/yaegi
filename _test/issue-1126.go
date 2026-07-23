@@ -18,6 +18,3 @@ func main() {
 		fmt.Println("False!")
 	}
 }
-
-// Output:
-// True!

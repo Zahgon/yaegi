@@ -8,7 +8,3 @@ func main() {
 	println(a != -1)
 	println(a == -1)
 }
-
-// Output:
-// false
-// true

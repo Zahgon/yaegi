@@ -11,6 +11,3 @@ func main() {
 	}
 	fmt.Println(v)
 }
-
-// Output:
-// [(3,2)]

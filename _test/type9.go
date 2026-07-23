@@ -13,6 +13,3 @@ func main() {
 }
 
 type GoodbyeProvider func(message string) string
-
-// Output:
-// &{<nil>}

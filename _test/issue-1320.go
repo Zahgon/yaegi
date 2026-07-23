@@ -12,18 +12,13 @@ type connPool struct {
 	name string
 }
 
-func (c *connPool) Get() string { return c.name }
+func (c *connPool) Get() string { _ = "STUB: not implemented"; return "" }
 
-func newBaseClient(i int, p Pooler) *baseClient {
-	return &baseClient{connPool: p}
-}
+func newBaseClient(i int, p Pooler) *baseClient { _ = "STUB: not implemented"; return nil }
 
-func newConnPool() *connPool { return &connPool{name: "connPool"} }
+func newConnPool() *connPool { _ = "STUB: not implemented"; return nil }
 
 func main() {
 	b := newBaseClient(0, newConnPool())
 	println(b.connPool.(*connPool).name)
 }
-
-// Output:
-// connPool

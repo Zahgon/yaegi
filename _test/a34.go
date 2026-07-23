@@ -7,6 +7,3 @@ func main() {
 	var b [3]int = a
 	fmt.Println(b)
 }
-
-// Output:
-// [1 2 3]

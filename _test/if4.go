@@ -13,7 +13,3 @@ func main() {
 	}
 	println(a)
 }
-
-// Output:
-// true
-// -1

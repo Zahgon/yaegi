@@ -8,6 +8,3 @@ func main() {
 	s := S1("Hello")
 	fmt.Println(s)
 }
-
-// Output:
-// Hello

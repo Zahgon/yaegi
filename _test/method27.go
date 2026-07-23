@@ -15,6 +15,3 @@ func main() {
 	fmt.Println("ua:", a.UserAgent())
 
 }
-
-// Output:
-// ua:

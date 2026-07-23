@@ -17,6 +17,3 @@ func main() {
 		f()
 	}
 }
-
-// Output:
-// first

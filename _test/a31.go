@@ -6,6 +6,3 @@ func main() {
 	}
 	println("")
 }
-
-// Output:
-// hello hello hello

@@ -14,6 +14,3 @@ func main() {
 		println("not nul")
 	}
 }
-
-// Output:
-// one

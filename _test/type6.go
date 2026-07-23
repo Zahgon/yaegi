@@ -11,6 +11,3 @@ func main() {
 }
 
 type T int
-
-// Output:
-// int

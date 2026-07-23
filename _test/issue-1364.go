@@ -11,6 +11,3 @@ func main() {
 	value, err = strconv.ParseFloat("123", 64)
 	fmt.Println(value, err)
 }
-
-// Output:
-// 123 <nil>

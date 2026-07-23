@@ -10,6 +10,3 @@ const (
 func main() {
 	println(a, b, c, d)
 }
-
-// Output:
-// 2 9 4 5

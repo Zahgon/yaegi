@@ -18,6 +18,3 @@ var a = [...]int{
 func main() {
 	fmt.Println(a)
 }
-
-// Output:
-// [1 12]

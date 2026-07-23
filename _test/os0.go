@@ -11,6 +11,3 @@ func main() {
 		fmt.Println(err.Error())
 	}
 }
-
-// Output:
-// open __NotExisting__: no such file or directory

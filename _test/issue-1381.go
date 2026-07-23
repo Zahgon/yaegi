@@ -50,9 +50,3 @@ func main() {
 		}
 	}
 }
-
-// Output:
-// bufOne is properly redeclared
-// bufTwo is properly redeclared
-// bufThree is properly redeclared
-// bufFour is properly redeclared

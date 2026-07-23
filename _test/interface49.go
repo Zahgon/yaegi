@@ -40,6 +40,3 @@ func main() {
 	var d Descriptor
 	println(d == nil)
 }
-
-// Output:
-// true

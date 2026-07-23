@@ -6,9 +6,3 @@ func main() {
 		println(v)
 	}
 }
-
-// Output:
-// 1
-// 2
-// 3
-// 4

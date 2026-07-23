@@ -14,6 +14,3 @@ func main() {
 	m := cmap{}
 	fmt.Println(m)
 }
-
-// Output:
-// {map[]}

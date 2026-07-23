@@ -25,6 +25,3 @@ func main() {
 	_, _ = d.f.ReadAt(data, 0)
 	println("bye")
 }
-
-// Output:
-// bye

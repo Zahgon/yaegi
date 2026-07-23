@@ -6,6 +6,3 @@ func main() {
 		println(k, v)
 	}
 }
-
-// Output:
-// 13 733

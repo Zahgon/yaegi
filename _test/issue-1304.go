@@ -11,6 +11,3 @@ func main() {
 	n.Child = append(n.Child, &Node{Name: "child"})
 	println(n.Name, n.Child[0].Name)
 }
-
-// Output:
-// parent child

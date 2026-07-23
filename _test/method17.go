@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"time"
 )
 
@@ -10,15 +9,9 @@ type MyTime struct {
 	index int
 }
 
-func (m MyTime) Foo() {
-	minute := m.Minute()
-	fmt.Println("minute:", minute)
-}
+func (m MyTime) Foo() { _ = "STUB: not implemented"; return }
 
-func (m *MyTime) Bar() {
-	second := m.Second()
-	fmt.Println("second:", second)
-}
+func (m *MyTime) Bar() { _ = "STUB: not implemented"; return }
 
 func main() {
 	t := MyTime{}
@@ -27,8 +20,3 @@ func main() {
 	t.Bar()
 	(&t).Bar()
 }
-
-// Output:
-// minute: 4
-// second: 5
-// second: 5

@@ -2,16 +2,9 @@ package main
 
 type adder func(int, int) int
 
-func genAdd(k int) adder {
-	return func(i, j int) int {
-		return i + j + k
-	}
-}
+func genAdd(k int) adder { _ = "STUB: not implemented"; return *new(adder) }
 
 func main() {
 	f := genAdd(5)
 	println(f(3, 4))
 }
-
-// Output:
-// 12

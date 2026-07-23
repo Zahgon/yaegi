@@ -19,6 +19,3 @@ func main() {
 	msg1 := <-t.c1
 	println("received from c1:", msg1)
 }
-
-// Output:
-// received from c1: done

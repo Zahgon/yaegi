@@ -15,6 +15,3 @@ func main() {
 	}
 	fmt.Println(opts)
 }
-
-// Output:
-// &{ map[Accept-Encoding:[gzip]]}

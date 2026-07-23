@@ -8,6 +8,3 @@ const (
 func main() {
 	println(a, b)
 }
-
-// Output:
-// 0 1

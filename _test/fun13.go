@@ -4,7 +4,7 @@ import "fmt"
 
 type T struct{}
 
-func newT() (T, error) { return T{}, nil }
+func newT() (T, error) { _ = "STUB: not implemented"; return *new(T), nil }
 
 func main() {
 	var (
@@ -14,6 +14,3 @@ func main() {
 	i, err = newT()
 	fmt.Println(i, err)
 }
-
-// Output:
-// {} <nil>

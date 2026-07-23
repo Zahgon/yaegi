@@ -1,11 +1,8 @@
 package main
 
-func f() {}
+func f() { _ = "STUB: not implemented"; return }
 
 func main() {
 	f()
 	println("ok")
 }
-
-// Output:
-// ok

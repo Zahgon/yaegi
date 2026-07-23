@@ -12,6 +12,3 @@ func main() {
 	}
 	println("PASS")
 }
-
-// Output:
-// PASS

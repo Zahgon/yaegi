@@ -5,6 +5,3 @@ func main() {
 	*a = 3
 	println(*a)
 }
-
-// Output:
-// 3

@@ -37,8 +37,3 @@ func main() {
 		println(c)
 	}
 }
-
-// Output:
-// 1
-// 2
-// 3

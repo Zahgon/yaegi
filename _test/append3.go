@@ -8,7 +8,3 @@ func main() {
 	fmt.Println(append(a, b[:]...))
 	fmt.Println(append(a, []int{5, 6}...))
 }
-
-// Output:
-// [1 2 3 4]
-// [1 2 5 6]

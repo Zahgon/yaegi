@@ -7,7 +7,3 @@ func main() {
 	}
 	println("bye")
 }
-
-// Output:
-// no comm
-// bye

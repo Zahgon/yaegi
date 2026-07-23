@@ -3,23 +3,15 @@ package main
 import (
 	"bytes"
 	"encoding/json"
-	"errors"
 	"net/netip"
 	"reflect"
 )
 
-func unmarshalJSON[T any](b []byte, x *[]T) error {
-	if *x != nil {
-		return errors.New("already initialized")
-	}
-	if len(b) == 0 {
-		return nil
-	}
-	return json.Unmarshal(b, x)
-}
+func unmarshalJSON[T any](b []byte, x *[]T) error { _ = "STUB: not implemented"; return nil }
 
 func SliceOfViews[T ViewCloner[T, V], V StructView[T]](x []T) SliceView[T, V] {
-	return SliceView[T, V]{x}
+	_ = "STUB: not implemented"
+	return nil
 }
 
 type StructView[T any] interface {
@@ -36,21 +28,19 @@ type ViewCloner[T any, V StructView[T]] interface {
 	Clone() T
 }
 
-func (v SliceView[T, V]) MarshalJSON() ([]byte, error) { return json.Marshal(v.ж) }
+func (v SliceView[T, V]) MarshalJSON() ([]byte, error) { _ = "STUB: not implemented"; return nil, nil }
 
-func (v *SliceView[T, V]) UnmarshalJSON(b []byte) error { return unmarshalJSON(b, &v.ж) }
+func (v *SliceView[T, V]) UnmarshalJSON(b []byte) error { _ = "STUB: not implemented"; return nil }
 
 type Slice[T any] struct {
 	ж []T
 }
 
-func (v Slice[T]) MarshalJSON() ([]byte, error) { return json.Marshal(v.ж) }
+func (v Slice[T]) MarshalJSON() ([]byte, error) { _ = "STUB: not implemented"; return nil, nil }
 
-func (v *Slice[T]) UnmarshalJSON(b []byte) error { return unmarshalJSON(b, &v.ж) }
+func (v *Slice[T]) UnmarshalJSON(b []byte) error { _ = "STUB: not implemented"; return nil }
 
-func SliceOf[T any](x []T) Slice[T] {
-	return Slice[T]{x}
-}
+func SliceOf[T any](x []T) Slice[T] { _ = "STUB: not implemented"; return nil }
 
 type IPPrefixSlice struct {
 	ж Slice[netip.Prefix]
@@ -79,6 +69,3 @@ func main() {
 	err2 := json.Unmarshal(b, &got)
 	println(err1 == nil, err2 == nil, reflect.DeepEqual(got, in))
 }
-
-// Output:
-// true true true

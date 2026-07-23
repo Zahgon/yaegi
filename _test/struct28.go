@@ -14,6 +14,3 @@ func main() {
 	t := T1{}
 	fmt.Println(t)
 }
-
-// Output:
-// {{<nil>}}

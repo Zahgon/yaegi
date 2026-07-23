@@ -53,10 +53,3 @@ func main() {
 	fmt.Println(values.Get("BODY_4"))
 	fmt.Println(values.Get("BODY_5"))
 }
-
-// Output:
-// VALUE_1
-// VALUE_2
-// 
-// {"BODY_1":"VALUE_1","BODY_2":"VALUE_2","BODY_3":null}
-// ["VALUE_1","VALUE_2","VALUE_3"]

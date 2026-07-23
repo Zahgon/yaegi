@@ -10,6 +10,3 @@ func main() {
 
 	fmt.Println(c)
 }
-
-// Output:
-// {1 1 1 1}

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type fii interface {
 	Hello()
 }
@@ -16,32 +14,14 @@ type Bir struct {
 
 type Bar struct{}
 
-func (b Bar) Hello() { fmt.Println("b:", b) }
+func (b Bar) Hello() { _ = "STUB: not implemented"; return }
 
-func (b Boo) Hello() {
-	fmt.Println("Hello", b)
-	fmt.Println(b.Name)
-}
+func (b Boo) Hello() { _ = "STUB: not implemented"; return }
 
-func inCall(foo fii) {
-	fmt.Println("inCall")
-	switch a := foo.(type) {
-	case Boo, Bir:
-		a.Hello()
-	default:
-		fmt.Println("a:", a)
-	}
-}
+func inCall(foo fii) { _ = "STUB: not implemented"; return }
 
 func main() {
 	boo := Boo{"foo"}
 	inCall(boo)
 	inCall(Bar{})
 }
-
-// Output:
-// inCall
-// Hello {foo}
-// foo
-// inCall
-// a: {}

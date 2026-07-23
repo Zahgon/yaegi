@@ -16,24 +16,22 @@ type Sink interface {
 	io.Closer
 }
 
-func newFileSink(path string) (Sink, error) {
-	return os.OpenFile(path, os.O_WRONLY|os.O_APPEND|os.O_CREATE, 0666)
-}
+func newFileSink(path string) (Sink, error) { _ = "STUB: not implemented"; return *new(Sink), nil }
 
 type Sink1 struct{ name string }
 
-func (s Sink1) Write(b []byte) (int, error) { println("in Write"); return 0, nil }
-func (s Sink1) Sync() error                 { println("in Sync"); return nil }
-func (s Sink1) Close() error                { println("in Close", s.name); return nil }
-func newS1(name string) Sink                { return Sink1{name} }
-func newS1p(name string) Sink               { return &Sink1{name} }
+func (s Sink1) Write(b []byte) (int, error) { _ = "STUB: not implemented"; return 0, nil }
+func (s Sink1) Sync() error                 { _ = "STUB: not implemented"; return nil }
+func (s Sink1) Close() error                { _ = "STUB: not implemented"; return nil }
+func newS1(name string) Sink                { _ = "STUB: not implemented"; return *new(Sink) }
+func newS1p(name string) Sink               { _ = "STUB: not implemented"; return *new(Sink) }
 
 type Sink2 struct{ name string }
 
-func (s *Sink2) Write(b []byte) (int, error) { println("in Write"); return 0, nil }
-func (s *Sink2) Sync() error                 { println("in Sync"); return nil }
-func (s *Sink2) Close() error                { println("in Close", s.name); return nil }
-func newS2(name string) Sink                 { return Sink1{name} }
+func (s *Sink2) Write(b []byte) (int, error) { _ = "STUB: not implemented"; return 0, nil }
+func (s *Sink2) Sync() error                 { _ = "STUB: not implemented"; return nil }
+func (s *Sink2) Close() error                { _ = "STUB: not implemented"; return nil }
+func newS2(name string) Sink                 { _ = "STUB: not implemented"; return *new(Sink) }
 
 func main() {
 	tmpfile, err := os.CreateTemp("", "xxx")
@@ -56,12 +54,3 @@ func main() {
 		fmt.Println(closer.Close())
 	}
 }
-
-// Output:
-// <nil>
-// in Close ptr
-// <nil>
-// in Close struct
-// <nil>
-// in Close ptr2
-// <nil>

@@ -6,7 +6,3 @@ func main() {
 	a, b = b, a
 	println(a, b)
 }
-
-// Output:
-// 1 2
-// 2 1

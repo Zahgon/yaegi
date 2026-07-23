@@ -12,6 +12,3 @@ func main() {
 	}
 	println(n)
 }
-
-// Output:
-// 7

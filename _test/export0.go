@@ -1,8 +1,3 @@
 package main
 
-func Test() {
-	println("Hello from test")
-}
-
-// Output:
-//
+func Test() { _ = "STUB: not implemented"; return }

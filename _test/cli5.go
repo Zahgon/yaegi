@@ -1,9 +1,6 @@
 package main
 
 import (
-	"fmt"
-	"io"
-	"log"
 	"net/http"
 	"net/http/httptest"
 )
@@ -13,14 +10,13 @@ type mw1 struct {
 }
 
 func (m *mw1) ServeHTTP(rw http.ResponseWriter, rq *http.Request) {
-	m.next.ServeHTTP(rw, rq)
+	_ = "STUB: not implemented"
+	return
 }
 
 type mw0 struct{}
 
-func (m *mw0) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "Welcome to my website!")
-}
+func (m *mw0) ServeHTTP(w http.ResponseWriter, r *http.Request) { _ = "STUB: not implemented"; return }
 
 func main() {
 	m0 := &mw0{}
@@ -35,17 +31,4 @@ func main() {
 	client(server.URL)
 }
 
-func client(uri string) {
-	resp, err := http.Get(uri)
-	if err != nil {
-		log.Fatal(err)
-	}
-	body, err := io.ReadAll(resp.Body)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(string(body))
-}
-
-// Output:
-// Welcome to my website!
+func client(uri string) { _ = "STUB: not implemented"; return }

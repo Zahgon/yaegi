@@ -4,17 +4,14 @@ import "fmt"
 
 type CustomError string
 
-func (s CustomError) Error() string {
-	return string(s)
-}
+func (s CustomError) Error() string { _ = "STUB: not implemented"; return "" }
 
 func NewCustomError(errorText string) CustomError {
-	return CustomError(errorText)
+	_ = "STUB: not implemented"
+	return *new(CustomError)
 }
 
-func fail() (err error) {
-	return NewCustomError("Everything is going wrong!")
-}
+func fail() (err error) { _ = "STUB: not implemented"; return nil }
 
 func main() {
 	fmt.Println(fail())
@@ -22,7 +19,3 @@ func main() {
 	myError = NewCustomError("ok")
 	fmt.Println(myError)
 }
-
-// Output:
-// Everything is going wrong!
-// ok

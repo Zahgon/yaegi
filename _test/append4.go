@@ -7,6 +7,3 @@ func main() {
 	a = append(a, nil)
 	fmt.Println(a)
 }
-
-// Output:
-// [<nil>]

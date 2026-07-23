@@ -22,6 +22,3 @@ func main() {
 	sort.Strings(content)
 	fmt.Println(content)
 }
-
-// Output:
-// [hellobar hellofoo worldmachin worldtruc]

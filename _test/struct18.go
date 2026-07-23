@@ -15,6 +15,3 @@ func main() {
 
 	fmt.Printf("%v %T\n", a.Header, a.Header)
 }
-
-// Output:
-// map[] http.Header

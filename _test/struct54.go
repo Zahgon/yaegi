@@ -4,11 +4,7 @@ type S struct {
 	t *T
 }
 
-func newS() *S {
-	return &S{
-		t: &T{u: map[string]*U{}},
-	}
-}
+func newS() *S { _ = "STUB: not implemented"; return nil }
 
 type T struct {
 	u map[string]*U

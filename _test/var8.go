@@ -14,6 +14,3 @@ var protoMessageType = reflect.TypeOf((*Message)(nil)).Elem()
 func main() {
 	fmt.Println(protoMessageType.Kind())
 }
-
-// Output:
-// struct

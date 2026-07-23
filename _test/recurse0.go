@@ -33,7 +33,3 @@ func main() {
 	fmt.Println(t)
 	fmt.Println(u)
 }
-
-// Output:
-// {[] [] map[] map[] <nil> <nil> <nil> <nil> <nil> {[] [] map[] map[] <nil> <nil> <nil> <nil> <nil>}}
-// {[] [] map[] map[] <nil> <nil> <nil> <nil> <nil>}

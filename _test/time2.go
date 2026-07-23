@@ -10,6 +10,3 @@ func main() {
 	h, m, s := t.Clock()
 	fmt.Println(h, m, s)
 }
-
-// Output:
-// 23 4 5

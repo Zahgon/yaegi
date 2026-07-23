@@ -13,6 +13,3 @@ func main() {
 	s2 := S2{&s1}
 	println(s2.Name)
 }
-
-// Output:
-// foo

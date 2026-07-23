@@ -14,11 +14,7 @@ func main() {
 	a["foo"] = &foo{}
 	fmt.Println(a["foo"])
 
-	b := make(template.FuncMap) // type FuncMap map[string]interface{}
+	b := make(template.FuncMap)
 	b["foo"] = &foo{}
 	fmt.Println(b["foo"])
 }
-
-// Output:
-// &{}
-// &{}

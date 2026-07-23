@@ -10,6 +10,3 @@ func main() {
 	s.Scan()
 	println(string(append(s.Bytes(), []byte(" World")...)))
 }
-
-// Output:
-// Hello World

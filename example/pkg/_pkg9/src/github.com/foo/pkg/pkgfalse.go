@@ -1,17 +1,5 @@
 package pkgfalse
 
-import (
-	"fmt"
+func HereNot() string { _ = "STUB: not implemented"; return "" }
 
-	"github.com/foo/pkg/fromage"
-)
-
-func HereNot() string {
-	return "root"
-}
-
-func NewSampleNot() func() string {
-	return func() string {
-		return fmt.Sprintf("%s %s", HereNot(), fromage.Here())
-	}
-}
+func NewSampleNot() func() string { _ = "STUB: not implemented"; return nil }

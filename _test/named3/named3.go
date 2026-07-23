@@ -1,7 +1,6 @@
 package named3
 
 import (
-	"fmt"
 	"net/http"
 )
 
@@ -9,23 +8,10 @@ type T struct {
 	A string
 }
 
-func (t *T) Print() {
-	println(t.A)
-}
+func (t *T) Print() { _ = "STUB: not implemented"; return }
 
 type A http.Header
 
-func (a A) ForeachKey() error {
-	for k, vals := range a {
-		for _, v := range vals {
-			fmt.Println(k, v)
-		}
+func (a A) ForeachKey() error { _ = "STUB: not implemented"; return nil }
 
-	}
-
-	return nil
-}
-
-func (a A) Set(k string, v []string) {
-	a[k] = v
-}
+func (a A) Set(k string, v []string) { _ = "STUB: not implemented"; return }

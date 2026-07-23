@@ -17,8 +17,3 @@ func main() {
 	c = &b
 	fmt.Println(**c)
 }
-
-// Output:
-// 2
-// 2
-// 2

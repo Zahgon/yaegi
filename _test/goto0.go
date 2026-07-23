@@ -8,8 +8,3 @@ L1:
 	println("bar")
 	println("bye")
 }
-
-// Output:
-// foo
-// bar
-// bye

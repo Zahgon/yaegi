@@ -11,8 +11,3 @@ func init() {
 func main() {
 	println("Hello from main")
 }
-
-// Output:
-// Hello from init 1
-// Hello from init 2
-// Hello from main

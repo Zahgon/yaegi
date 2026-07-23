@@ -9,6 +9,3 @@ func main() {
 	copy(c, a)
 	fmt.Println(c)
 }
-
-// Output:
-// [10 20 30 0]

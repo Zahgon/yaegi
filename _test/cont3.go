@@ -19,6 +19,3 @@ OuterLoop:
 		}
 	}
 }
-
-// Error:
-// 15:5: invalid continue label OuterLoop

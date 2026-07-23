@@ -10,6 +10,3 @@ func main() {
 	t := T{nil}
 	fmt.Println(t)
 }
-
-// Output:
-// {[]}

@@ -13,6 +13,3 @@ func main() {
 	root.child = nil
 	fmt.Println("root:", root)
 }
-
-// Output:
-// root: &{<nil> [] root}

@@ -18,6 +18,3 @@ func main() {
 	b, _ := json.Marshal(a)
 	fmt.Println(string(b))
 }
-
-// Output:
-// {"IA":{"Timestamp":0}}

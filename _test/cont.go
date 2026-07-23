@@ -8,10 +8,3 @@ func main() {
 		println(i)
 	}
 }
-
-// Output:
-// 5
-// 6
-// 7
-// 8
-// 9

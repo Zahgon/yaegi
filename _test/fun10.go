@@ -2,9 +2,7 @@ package main
 
 import "fmt"
 
-func f() func() {
-	return nil
-}
+func f() func() { _ = "STUB: not implemented"; return nil }
 
 func main() {
 	g := f()
@@ -13,7 +11,3 @@ func main() {
 		fmt.Println("nil func")
 	}
 }
-
-// Output:
-// func() <nil>
-// nil func

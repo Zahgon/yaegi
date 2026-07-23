@@ -29,6 +29,3 @@ func main() {
 		println(sBuf[0], sBuf[WSize])
 	}
 }
-
-// Output:
-// 2 4

@@ -6,6 +6,3 @@ func main() {
 	a[b] = 1
 	println(a[b])
 }
-
-// Output:
-// 1

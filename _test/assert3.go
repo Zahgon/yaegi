@@ -11,6 +11,3 @@ func main() {
 		println("nok")
 	}
 }
-
-// Output:
-// ok

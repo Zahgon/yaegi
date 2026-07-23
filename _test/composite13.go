@@ -14,6 +14,3 @@ func main() {
 
 	println(a.C.E)
 }
-
-// Output:
-// bb

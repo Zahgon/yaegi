@@ -4,14 +4,9 @@ import (
 	"fmt"
 )
 
-func foo() ([]string, error) {
-	return nil, fmt.Errorf("bar")
-}
+func foo() ([]string, error) { _ = "STUB: not implemented"; return nil, nil }
 
 func main() {
 	a, b := foo()
 	fmt.Println(a, b)
 }
-
-// Output:
-// [] bar

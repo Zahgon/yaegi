@@ -21,8 +21,3 @@ const (
 var varString string = "test"
 
 func main() {}
-
-// Output:
-// hello
-// 11
-// test

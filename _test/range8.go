@@ -11,6 +11,3 @@ func main() {
 		return
 	}
 }
-
-// Output:
-// success

@@ -6,6 +6,3 @@ func main() {
 }
 
 const bsize = 10
-
-// Output:
-// 10

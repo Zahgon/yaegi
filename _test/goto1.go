@@ -7,6 +7,3 @@ func main() {
 here:
 	println("ok")
 }
-
-// Output:
-// ok

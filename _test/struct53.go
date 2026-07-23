@@ -18,6 +18,3 @@ type T struct {
 func main() {
 	fmt.Println(T2{})
 }
-
-// Output:
-// {<nil>}

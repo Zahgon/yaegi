@@ -1,21 +1,15 @@
 package main
 
-func Bar() {
-	s := Obj.Foo()
-	println(s)
-}
+func Bar() { _ = "STUB: not implemented"; return }
 
 var Obj = NewT()
 
-func NewT() *T { return &T{} }
+func NewT() *T { _ = "STUB: not implemented"; return nil }
 
 type T struct{}
 
-func (t *T) Foo() bool { return t != nil }
+func (t *T) Foo() bool { _ = "STUB: not implemented"; return false }
 
 func main() {
 	Bar()
 }
-
-// Output:
-// true

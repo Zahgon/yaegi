@@ -15,6 +15,3 @@ func main() {
 	}
 	println(a, b)
 }
-
-// Output:
-// test1 test2

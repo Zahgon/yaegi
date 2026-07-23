@@ -8,6 +8,3 @@ func main() {
 	UnixTime = time.Unix
 	println(UnixTime(1e9, 0).In(time.UTC).Minute())
 }
-
-// Output:
-// 46

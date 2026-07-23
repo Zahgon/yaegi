@@ -9,6 +9,3 @@ var gfm = [maxlen]byte{}
 func main() {
 	println(len(gfm))
 }
-
-// Output:
-// 3

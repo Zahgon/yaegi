@@ -7,6 +7,3 @@ import (
 func main() {
 	fmt.Println(7 / 3)
 }
-
-// Output:
-// 2

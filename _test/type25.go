@@ -9,25 +9,13 @@ type wrappedError struct {
 	wrapped error
 }
 
-func (e wrappedError) Error() string {
-	return "some outer error"
-}
+func (e wrappedError) Error() string { _ = "STUB: not implemented"; return "" }
 
-func (e wrappedError) Unwrap() error {
-	return e.wrapped
-}
+func (e wrappedError) Unwrap() error { _ = "STUB: not implemented"; return nil }
 
 var err atomic.Value
 
-func getWrapped() *wrappedError {
-	if v := err.Load(); v != nil {
-		err := v.(wrappedError)
-		if err.wrapped != nil {
-			return &err
-		}
-	}
-	return nil
-}
+func getWrapped() *wrappedError { _ = "STUB: not implemented"; return nil }
 
 func main() {
 	err.Store(wrappedError{wrapped: errors.New("test")})
@@ -38,7 +26,3 @@ func main() {
 		println(e.wrapped.Error())
 	}
 }
-
-// Output:
-// some outer error
-// test

@@ -14,7 +14,3 @@ func main() {
 	println(len(tab))
 	println(tab[0].name)
 }
-
-// Output:
-// 2
-// foo

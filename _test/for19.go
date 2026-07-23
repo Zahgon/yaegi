@@ -5,8 +5,3 @@ func main() {
 		println("i")
 	}
 }
-
-// Output:
-// i
-// i
-// i

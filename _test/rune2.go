@@ -16,7 +16,3 @@ func main() {
 
 	fmt.Println(p)
 }
-
-// Output:
-// 50
-// &{50}

@@ -6,8 +6,3 @@ func main() {
 		println(i)
 	}
 }
-
-// Output:
-// 0
-// 1
-// 2

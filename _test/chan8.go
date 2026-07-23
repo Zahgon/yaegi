@@ -7,6 +7,3 @@ func main() {
 
 	println(<-messages && true)
 }
-
-// Output:
-// true

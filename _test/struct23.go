@@ -17,7 +17,3 @@ func main() {
 	a.Child[0].Child = append([]*S{}, &S{Name: "sunshine"})
 	json.NewEncoder(os.Stdout).Encode(a)
 }
-
-// Output:
-// {"Name":"hello","Child":[{"Name":"world","Child":null}]}
-// {"Name":"hello","Child":[{"Name":"world","Child":[{"Name":"sunshine","Child":null}]}]}

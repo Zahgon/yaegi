@@ -4,6 +4,6 @@ type T struct {
 	Name string
 }
 
-func (t *T) F() { println(t.Name) }
+func (t *T) F() { _ = "STUB: not implemented"; return }
 
-func NewT(s string) *T { return &T{s} }
+func NewT(s string) *T { _ = "STUB: not implemented"; return nil }

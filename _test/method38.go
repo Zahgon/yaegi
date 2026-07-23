@@ -9,6 +9,3 @@ import (
 func main() {
 	fmt.Println(method38.Get())
 }
-
-// Output:
-// &{[] {<nil>}}

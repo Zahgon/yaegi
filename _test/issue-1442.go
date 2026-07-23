@@ -22,7 +22,7 @@ func main() {
 
 	for _, i := range "abcdef" {
 		for _, j := range "0123456789" {
-			// i, j := "a", "0"
+
 			for _, k := range "ABCDEF" {
 				select {
 				case <-ctx.Done():
@@ -36,6 +36,3 @@ func main() {
 	}
 	return
 }
-
-// Output:
-//

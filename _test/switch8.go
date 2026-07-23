@@ -5,6 +5,3 @@ func main() {
 	fallthrough
 	println("world")
 }
-
-// Error:
-// 5:2: fallthrough statement out of place

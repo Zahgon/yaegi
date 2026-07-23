@@ -10,6 +10,3 @@ func main() {
 	msg := <-messages
 	fmt.Println(msg)
 }
-
-// Output:
-// ping

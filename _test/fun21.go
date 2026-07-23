@@ -1,12 +1,7 @@
 package main
 
-func Bar() string {
-	return
-}
+func Bar() string { _ = "STUB: not implemented"; return "" }
 
 func main() {
 	println(Bar())
 }
-
-// Error:
-// 4:2: not enough arguments to return

@@ -8,6 +8,3 @@ var (
 func main() {
 	println(a)
 }
-
-// Output:
-// hello

@@ -7,6 +7,3 @@ func main() {
 	_ = tick
 	println("success")
 }
-
-// Output:
-// success

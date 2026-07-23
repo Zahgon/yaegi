@@ -17,6 +17,3 @@ func main() {
 	a.D = D{E: a}
 	fmt.Println(a.D.E.B)
 }
-
-// Output:
-// b

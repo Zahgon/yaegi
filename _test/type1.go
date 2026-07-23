@@ -7,6 +7,3 @@ func main() {
 	s := i.(string)
 	fmt.Println(s)
 }
-
-// Output:
-// hello

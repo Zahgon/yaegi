@@ -7,6 +7,3 @@ func main() {
 	delete(a, "hello")
 	fmt.Println(a)
 }
-
-// Output:
-// map[world:3]

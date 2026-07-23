@@ -11,8 +11,3 @@ func main() {
 	foos[1]()
 	foos[2]()
 }
-
-// Output:
-// 0
-// 1
-// 2

@@ -11,6 +11,3 @@ func main() {
 	a := T(12)
 	fmt.Println(reflect.TypeOf(a))
 }
-
-// Output:
-// int

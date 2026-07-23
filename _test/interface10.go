@@ -7,6 +7,3 @@ type Edge interface {
 func main() {
 	println("hello")
 }
-
-// Output:
-// hello

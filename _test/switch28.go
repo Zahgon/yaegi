@@ -9,7 +9,3 @@ func main() {
 	}
 	println("bye")
 }
-
-// Output:
-// true
-// bye

@@ -10,7 +10,3 @@ func main() {
 	println(roundG)
 	println(optionsG == nil)
 }
-
-// Output:
-// 31
-// true

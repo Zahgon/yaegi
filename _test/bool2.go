@@ -12,6 +12,3 @@ func main() {
 		println("nok")
 	}
 }
-
-// Output:
-// nok

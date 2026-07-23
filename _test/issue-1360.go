@@ -9,6 +9,3 @@ func main() {
 	v := IP{}
 	fmt.Println(v)
 }
-
-// Output:
-// <nil>

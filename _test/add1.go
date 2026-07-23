@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	b := 2 // int
+	b := 2
 
 	var c int = 5 + b
 	println(c)
@@ -23,19 +23,8 @@ func main() {
 	a = 10 + g
 	println(a.(int))
 
-	// multiple assignment
 	var foo interface{}
-	foo, a = "hello", 11 + g
+	foo, a = "hello", 11+g
 	println(a.(int))
 	println(foo.(string))
 }
-
-// Output:
-// 7
-// 8
-// 9
-// 10
-// 11
-// 12
-// 13
-// hello

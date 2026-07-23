@@ -26,6 +26,3 @@ func main() {
 		log.Fatal(err)
 	}
 }
-
-// Output:
-// Hello, World!!

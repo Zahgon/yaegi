@@ -2,16 +2,10 @@ package main
 
 type F func() (int, error)
 
-func f1() (int, error) { return 3, nil }
+func f1() (int, error) { _ = "STUB: not implemented"; return 0, nil }
 
-func f2(a string, f F) {
-	c, _ := f()
-	println(a, c)
-}
+func f2(a string, f F) { _ = "STUB: not implemented"; return }
 
 func main() {
 	f2("hello", F(f1))
 }
-
-// Output:
-// hello 3

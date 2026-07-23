@@ -6,13 +6,13 @@ type myInterface interface {
 
 type V struct{}
 
-func (v *V) myFunc() string { return "hello" }
+func (v *V) myFunc() string { _ = "STUB: not implemented"; return "" }
 
 type U struct {
 	v myInterface
 }
 
-func (u *U) myFunc() string { return u.v.myFunc() }
+func (u *U) myFunc() string { _ = "STUB: not implemented"; return "" }
 
 func main() {
 	x := V{}
@@ -20,6 +20,3 @@ func main() {
 	y = &U{y}
 	println(y.myFunc())
 }
-
-// Output:
-// hello

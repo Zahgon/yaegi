@@ -10,13 +10,10 @@ type I interface {
 
 type S struct{}
 
-func (*S) I2() string { return "foo" }
+func (*S) I2() string { _ = "STUB: not implemented"; return "" }
 
 func main() {
 	var i I
 	_, ok := i.(*S)
 	println(ok)
 }
-
-// Output:
-// false

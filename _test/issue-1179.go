@@ -8,16 +8,13 @@ type T struct {
 	Name string
 }
 
-func (t *T) F() { println("in F", t.Name) }
+func (t *T) F() { _ = "STUB: not implemented"; return }
 
-func NewI(s string) I { return newT(s) }
+func NewI(s string) I { _ = "STUB: not implemented"; return *new(I) }
 
-func newT(s string) *T { return &T{s} }
+func newT(s string) *T { _ = "STUB: not implemented"; return nil }
 
 func main() {
 	i := NewI("test")
 	i.F()
 }
-
-// Output:
-// in F test

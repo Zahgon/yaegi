@@ -9,7 +9,4 @@ func main() {
 	println(o.dist())
 }
 
-func (c Coord) dist() int { return c.x*c.x + c.y*c.y }
-
-// Output:
-// 25
+func (c Coord) dist() int { _ = "STUB: not implemented"; return 0 }

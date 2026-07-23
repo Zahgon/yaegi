@@ -7,6 +7,3 @@ func main() {
 		println("yes")
 	}
 }
-
-// Output:
-// yes

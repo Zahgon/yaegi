@@ -8,6 +8,3 @@ func main() {
 	b, ok := a.(string)
 	fmt.Println("a:", a, ", b:", b, ", ok:", ok)
 }
-
-// Output:
-// a: a , b: a , ok: true

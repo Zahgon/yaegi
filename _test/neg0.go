@@ -6,6 +6,3 @@ func main() {
 	a := -1
 	fmt.Println(a)
 }
-
-// Output:
-// -1

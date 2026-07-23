@@ -7,6 +7,3 @@ func main() {
 		println("a is nil")
 	}
 }
-
-// Output:
-// a is nil

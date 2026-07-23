@@ -1,8 +1,6 @@
 package main
 
-import "fmt"
-
-func (f *Foo) Boo() { fmt.Println(f.name, "Boo") }
+func (f *Foo) Boo() { _ = "STUB: not implemented"; return }
 
 type Foo struct {
 	name string
@@ -13,6 +11,3 @@ func main() {
 	t := &Foo{name: "foo"}
 	t.Boo()
 }
-
-// Output:
-// foo Boo

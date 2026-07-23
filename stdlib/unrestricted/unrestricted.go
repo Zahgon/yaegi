@@ -1,4 +1,3 @@
-// Package unrestricted provides the original version of standard library symbols which may cause the interpreter process to exit.
 package unrestricted
 
 import (
@@ -8,7 +7,6 @@ import (
 	"reflect"
 )
 
-// Symbols stores the map of syscall package symbols.
 var Symbols = map[string]map[string]reflect.Value{}
 
 func init() {

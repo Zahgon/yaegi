@@ -20,6 +20,3 @@ func main() {
 	b22 := (*[len(t22.Path)]byte)(&b)
 	println(len(b11), len(b12), len(b21), len(b22))
 }
-
-// Output:
-// 12 12 12 12

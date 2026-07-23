@@ -6,6 +6,3 @@ func main() {
 	_, ok := err.(interface{ IsSet() bool })
 	println(ok)
 }
-
-// Output:
-// false

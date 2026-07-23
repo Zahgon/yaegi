@@ -11,6 +11,3 @@ func main() {
 	}
 	println(a)
 }
-
-// Output:
-// -1

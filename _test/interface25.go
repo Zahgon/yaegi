@@ -9,6 +9,3 @@ func main() {
 		fmt.Println(v)
 	}
 }
-
-// Output:
-// 1

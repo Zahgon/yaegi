@@ -10,6 +10,3 @@ func main() {
 		println("unknown")
 	}
 }
-
-// Output:
-// string

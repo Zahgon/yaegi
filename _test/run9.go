@@ -6,7 +6,3 @@ func main() {
 	b := f(21)
 	println(b)
 }
-
-// Output:
-// f1 21 3
-// 22

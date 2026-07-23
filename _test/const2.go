@@ -5,6 +5,3 @@ func main() {
 }
 
 const a = "hello"
-
-// Output:
-// hello

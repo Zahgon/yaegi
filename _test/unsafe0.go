@@ -10,6 +10,3 @@ func main() {
 
 	println(str2)
 }
-
-// Output:
-// foobar

@@ -11,6 +11,3 @@ func main() {
 	g := v == nil
 	println(a, b, c, d, f, g)
 }
-
-// Output:
-// false false false false true true

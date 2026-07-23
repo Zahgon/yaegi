@@ -7,6 +7,3 @@ func main() {
 	var b *myint = &a
 	println(*b)
 }
-
-// Output:
-// 2

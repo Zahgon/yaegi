@@ -12,6 +12,3 @@ func main() {
 		println("unknown")
 	}
 }
-
-// Error:
-// 9:2: i is not a type

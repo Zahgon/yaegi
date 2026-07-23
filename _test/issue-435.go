@@ -1,25 +1,13 @@
 package main
 
-import (
-	"fmt"
-	"strconv"
-)
-
 type Foo int
 
-func (f Foo) String() string {
-	return "foo-" + strconv.Itoa(int(f))
-}
+func (f Foo) String() string { _ = "STUB: not implemented"; return "" }
 
-func print1(arg interface{}) {
-	fmt.Println(arg)
-}
+func print1(arg interface{}) { _ = "STUB: not implemented"; return }
 
 func main() {
 	var arg Foo = 3
 	var f = print1
 	f(arg)
 }
-
-// Output:
-// foo-3

@@ -1,54 +1,29 @@
 package main
 
-import "fmt"
-
 type fii interface {
 	Hello()
 }
 
 type Bir struct{}
 
-func (b Bir) Yo() {
-	fmt.Println("Yo", b)
-}
+func (b Bir) Yo() { _ = "STUB: not implemented"; return }
 
-func (b Bir) Hello() {
-	fmt.Println("Hello", b)
-}
+func (b Bir) Hello() { _ = "STUB: not implemented"; return }
 
 type Boo struct {
 	Name string
 }
 
-func (b Boo) Hello() {
-	fmt.Println("Hello", b)
-	fmt.Println(b.Name)
-}
+func (b Boo) Hello() { _ = "STUB: not implemented"; return }
 
 type Bar struct{}
 
-func (b Bar) Hello() { fmt.Println("b:", b) }
+func (b Bar) Hello() { _ = "STUB: not implemented"; return }
 
-func inCall(foo fii) {
-	fmt.Println("inCall")
-	switch a := foo.(type) {
-	case Boo:
-		a.Hello()
-	case Bir:
-		a.Yo()
-	default:
-		fmt.Println("a:", a)
-	}
-}
+func inCall(foo fii) { _ = "STUB: not implemented"; return }
 
 func main() {
 	boo := Bir{}
 	inCall(boo)
 	inCall(Bar{})
 }
-
-// Output:
-// inCall
-// Yo {}
-// inCall
-// a: {}

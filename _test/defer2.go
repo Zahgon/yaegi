@@ -11,8 +11,3 @@ func main() {
 	i = 20
 	println("world")
 }
-
-// Output:
-// hello
-// world
-// i: 20

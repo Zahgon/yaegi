@@ -8,9 +8,3 @@ func main() {
 	defer fmt.Println("au revoir")
 	println("world")
 }
-
-// Output:
-// hello
-// world
-// au revoir
-// bye

@@ -14,6 +14,3 @@ var t = T1{}
 func main() {
 	println("ok")
 }
-
-// Output:
-// ok

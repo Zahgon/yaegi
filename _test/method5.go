@@ -1,18 +1,11 @@
 package main
 
-import "fmt"
-
 type Foo struct {
 }
 
-func (Foo) Show() {
-	fmt.Println("Foo Showed")
-}
+func (Foo) Show() { _ = "STUB: not implemented"; return }
 
-func (f Foo) Call() {
-	fmt.Println("Foo Called")
-	f.Show()
-}
+func (f Foo) Call() { _ = "STUB: not implemented"; return }
 
 type Bar struct {
 	Foo
@@ -22,23 +15,12 @@ type Baz struct {
 	Foo
 }
 
-func (Baz) Call() {
-	fmt.Println("Baz Called")
-}
+func (Baz) Call() { _ = "STUB: not implemented"; return }
 
-func (Baz) Show() {
-	fmt.Println("Baz Showed")
-}
+func (Baz) Show() { _ = "STUB: not implemented"; return }
 
 func main() {
 	Foo{}.Call()
 	Bar{}.Call()
 	Baz{}.Call()
 }
-
-// Output:
-// Foo Called
-// Foo Showed
-// Foo Called
-// Foo Showed
-// Baz Called

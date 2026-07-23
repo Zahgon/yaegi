@@ -14,7 +14,3 @@ func main() {
 	a.Child["1"].Child["1"] = Node{Name: "sunshine", Child: map[string]Node{}}
 	fmt.Println(a)
 }
-
-// Output:
-// {hello map[1:{world map[]}]}
-// {hello map[1:{world map[1:{sunshine map[]}]}]}

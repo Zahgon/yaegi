@@ -13,6 +13,3 @@ func main() {
 	a := Fromage{}
 	fmt.Println(a.Server)
 }
-
-// Output:
-// <nil>

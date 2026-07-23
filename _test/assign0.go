@@ -12,7 +12,3 @@ func main() {
 	http.DefaultClient = &http.Client{}
 	fmt.Println(http.DefaultClient)
 }
-
-// Output:
-// &{<nil> <nil> <nil> 10s}
-// &{<nil> <nil> <nil> 0s}

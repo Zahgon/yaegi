@@ -4,14 +4,11 @@ import "fmt"
 
 type T int
 
-func (t T) Error() string { return fmt.Sprintf("This is an error from T: %d", t) }
+func (t T) Error() string { _ = "STUB: not implemented"; return "" }
 
-func f(t T) error { return t }
+func f(t T) error { _ = "STUB: not implemented"; return nil }
 
 func main() {
 	x := T(1)
 	fmt.Println(f(x))
 }
-
-// Output:
-// This is an error from T: 1

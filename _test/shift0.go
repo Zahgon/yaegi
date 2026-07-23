@@ -6,6 +6,3 @@ func main() {
 	rounds = 1 << cost
 	println(rounds)
 }
-
-// Output:
-// 4

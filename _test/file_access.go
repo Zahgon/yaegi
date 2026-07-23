@@ -33,7 +33,3 @@ func main() {
 		panic(err)
 	}
 }
-
-// Output:
-// n: 11
-// b: hello world

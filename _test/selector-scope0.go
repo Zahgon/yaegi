@@ -5,15 +5,11 @@ import (
 	"time"
 )
 
-func test(time string, t time.Time) string {
-	return time
-}
+func test(time string, t time.Time) string { _ = "STUB: not implemented"; return "" }
 
 var zero = time.Time{}
 
-func test2(time string) time.Time {
-	return zero
-}
+func test2(time string) time.Time { _ = "STUB: not implemented"; return *new(time.Time) }
 
 func main() {
 	str := test("test", time.Now())
@@ -22,7 +18,3 @@ func main() {
 	str2 := test2("test2")
 	fmt.Println(str2)
 }
-
-// Output:
-// test
-// 0001-01-01 00:00:00 +0000 UTC

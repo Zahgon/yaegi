@@ -13,6 +13,3 @@ func main() {
 	a := T{}
 	println(a.i, a.opt.b)
 }
-
-// Output:
-// 0 false

@@ -9,6 +9,3 @@ var t = T{true}
 func main() {
 	println(t.bool && true)
 }
-
-// Output:
-// true

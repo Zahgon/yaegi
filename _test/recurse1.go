@@ -11,6 +11,3 @@ func main() {
 	a := &A{"Test", func(a *A) { println("in f", a.Name) }}
 	a.F(a)
 }
-
-// Output:
-// in f Test

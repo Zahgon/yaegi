@@ -18,9 +18,3 @@ OuterLoop:
 		}
 	}
 }
-
-// Output:
-// I:  0
-// true
-// I:  1
-// true

@@ -11,6 +11,3 @@ func main() {
 	f := v.Interface().(func() string)
 	println(f())
 }
-
-// Output:
-// 2009-11-10 23:04:05 +0000 UTC

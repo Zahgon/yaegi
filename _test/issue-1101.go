@@ -12,6 +12,3 @@ func main() {
 		fmt.Println("It's a post!")
 	}
 }
-
-// Output:
-// It's a post!

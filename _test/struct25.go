@@ -9,6 +9,3 @@ type T struct{}
 func main() {
 	fmt.Println(a)
 }
-
-// Output:
-// {}

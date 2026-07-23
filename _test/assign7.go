@@ -10,7 +10,3 @@ func main() {
 	a, t["b"], s[1] = t["b"], s[1], a
 	fmt.Println(a, t["b"], s)
 }
-
-// Output:
-// 3 2 [4 5]
-// 2 5 [4 3]

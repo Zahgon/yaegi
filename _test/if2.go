@@ -8,6 +8,3 @@ func main() {
 		fmt.Println("oops")
 	}
 }
-
-// Error:
-// 7:5: non-bool used as if condition

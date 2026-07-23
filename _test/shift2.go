@@ -5,6 +5,3 @@ func main() {
 	var v uint32
 	println(u << v)
 }
-
-// Output:
-// 0

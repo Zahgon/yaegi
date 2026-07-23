@@ -1,17 +1,5 @@
 package pkg
 
-import (
-	"fmt"
+func Here() string { _ = "STUB: not implemented"; return "" }
 
-	"guthib.com/bar"
-)
-
-func Here() string {
-	return "hello"
-}
-
-func NewSample() func() string {
-	return func() string {
-		return fmt.Sprintf("%s %s", bar.Bar(), Here())
-	}
-}
+func NewSample() func() string { _ = "STUB: not implemented"; return nil }

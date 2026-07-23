@@ -1,15 +1,11 @@
 //go:build go1.21
 
-// Package stdlib provides wrappers of standard library packages to be imported natively in Yaegi.
 package stdlib
 
 import "reflect"
 
-// Symbols variable stores the map of stdlib symbols per package.
 var Symbols = map[string]map[string]reflect.Value{}
 
-// MapTypes variable contains a map of functions which have an interface{} as parameter but
-// do something special if the parameter implements a given interface.
 var MapTypes = map[reflect.Value][]reflect.Type{}
 
 func init() {
@@ -20,9 +16,6 @@ func init() {
 		"MapTypes": reflect.ValueOf(MapTypes),
 	}
 }
-
-// Provide access to go standard library (http://golang.org/pkg/)
-// go list std | grep -v internal | grep -v '\.' | grep -v unsafe | grep -v syscall
 
 //go:generate ../internal/cmd/extract/extract archive/tar archive/zip
 //go:generate ../internal/cmd/extract/extract bufio bytes cmp

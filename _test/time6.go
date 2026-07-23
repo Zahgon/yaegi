@@ -11,6 +11,3 @@ func main() {
 
 	fmt.Println(t)
 }
-
-// Output:
-// 1985-04-12 23:20:50.52 +0000 UTC

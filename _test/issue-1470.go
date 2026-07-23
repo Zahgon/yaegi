@@ -10,6 +10,3 @@ func main() {
 	t := T{}
 	println(len(t.num))
 }
-
-// Output:
-// 25

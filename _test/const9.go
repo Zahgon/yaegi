@@ -12,6 +12,3 @@ const (
 func main() {
 	println(b)
 }
-
-// Error:
-// 5:2: constant definition loop

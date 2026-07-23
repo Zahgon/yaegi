@@ -7,6 +7,3 @@ func main() {
 	a = string("A")
 	fmt.Println(a)
 }
-
-// Output:
-// A

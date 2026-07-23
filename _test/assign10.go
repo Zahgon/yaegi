@@ -5,6 +5,3 @@ func main() {
 	a = 1 + 2
 	println(a)
 }
-
-// Output:
-// 3

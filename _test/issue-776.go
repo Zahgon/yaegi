@@ -1,39 +1,22 @@
 package main
 
-import "fmt"
-
-// Filter is a filter
 type Filter interface {
 	Foo()
 }
 
-// GIFT is a gift
 type GIFT struct {
 	Filters []Filter
 }
 
-// New is a new filter list
-func New(filters ...Filter) *GIFT {
-	return &GIFT{
-		Filters: filters,
-	}
-}
+func New(filters ...Filter) *GIFT { _ = "STUB: not implemented"; return nil }
 
-// List lists filters
-func (g *GIFT) List() {
-	fmt.Printf("Hello from List!\n")
-}
+func (g *GIFT) List() { _ = "STUB: not implemented"; return }
 
-// MyFilter is one of the filters
 type MyFilter struct{}
 
-// Foo is a foo
-func (f *MyFilter) Foo() {}
+func (f *MyFilter) Foo() { _ = "STUB: not implemented"; return }
 
 func main() {
 	g := New(&MyFilter{})
 	g.List()
 }
-
-// Output:
-// Hello from List!

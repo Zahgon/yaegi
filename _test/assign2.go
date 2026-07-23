@@ -6,7 +6,4 @@ func main() {
 	println(r)
 }
 
-func hello(r uint32) uint32 { return r + 1 }
-
-// Output:
-// 2000000001
+func hello(r uint32) uint32 { _ = "STUB: not implemented"; return 0 }

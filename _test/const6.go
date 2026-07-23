@@ -17,6 +17,3 @@ type Properties struct {
 func main() {
 	println(len(reorderBuffer{}.rune))
 }
-
-// Output:
-// 32

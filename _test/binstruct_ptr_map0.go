@@ -12,6 +12,3 @@ func main() {
 	}
 	fmt.Println(v["foo"], v["bar"])
 }
-
-// Output:
-// (3,2) (4,5)

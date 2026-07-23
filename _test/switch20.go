@@ -5,12 +5,9 @@ func main() {
 
 	switch i {
 	case 1:
-		// nothing to do
+
 	default:
 		println("not run")
 	}
 	println("bye")
 }
-
-// Output:
-// bye

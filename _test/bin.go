@@ -6,6 +6,3 @@ func main() {
 	f := fmt.Println
 	f("Hello")
 }
-
-// Output:
-// Hello

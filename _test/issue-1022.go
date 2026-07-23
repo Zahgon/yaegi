@@ -12,6 +12,3 @@ func main() {
 
 	panic("Ho Ho Ho!")
 }
-
-// Output:
-// Ho Ho Ho!

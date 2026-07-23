@@ -15,8 +15,3 @@ func main() {
 		println("exception")
 	}
 }
-
-// Output:
-// hello
-// <nil>
-// world

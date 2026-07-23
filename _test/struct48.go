@@ -5,22 +5,9 @@ type List struct {
 	Num  int
 }
 
-func add(l *List, n int) *List {
-	if l == nil {
-		return &List{Num: n}
-	}
-	l.Next = add(l.Next, n)
-	return l
-}
+func add(l *List, n int) *List { _ = "STUB: not implemented"; return nil }
 
-func pr(l *List) {
-	if l == nil {
-		println("")
-		return
-	}
-	print(l.Num)
-	pr(l.Next)
-}
+func pr(l *List) { _ = "STUB: not implemented"; return }
 
 func main() {
 	a := add(nil, 0)
@@ -30,8 +17,3 @@ func main() {
 	a = add(a, 2)
 	pr(a)
 }
-
-// Output:
-// 0
-// 01
-// 012

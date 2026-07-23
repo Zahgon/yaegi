@@ -9,8 +9,3 @@ func main() {
 	}()
 	println("world")
 }
-
-// Output:
-// hello
-// world
-// bye

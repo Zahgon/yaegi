@@ -11,6 +11,3 @@ func main() {
 	}
 	fmt.Println(body)
 }
-
-// Output:
-// map[Action:[none]]

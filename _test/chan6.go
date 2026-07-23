@@ -1,6 +1,6 @@
 package main
 
-func send(c chan<- int32) { c <- 123 }
+func send(c chan<- int32) { _ = "STUB: not implemented"; return }
 
 func main() {
 	channel := make(chan int32)

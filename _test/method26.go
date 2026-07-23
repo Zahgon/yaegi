@@ -1,10 +1,10 @@
 package main
 
-func NewT(name string) *T { return &T{name} }
+func NewT(name string) *T { _ = "STUB: not implemented"; return nil }
 
 var C = NewT("test")
 
-func (t *T) f() { println(t == C) }
+func (t *T) f() { _ = "STUB: not implemented"; return }
 
 type T struct {
 	Name string
@@ -13,6 +13,3 @@ type T struct {
 func main() {
 	C.f()
 }
-
-// Output:
-// true

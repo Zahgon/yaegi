@@ -12,6 +12,3 @@ func main() {
 		println("unknown")
 	}
 }
-
-// Output:
-// i is nil

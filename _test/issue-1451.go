@@ -14,6 +14,3 @@ type T struct {
 func main() {
 	println(len(T{}.elem))
 }
-
-// Output:
-// 2

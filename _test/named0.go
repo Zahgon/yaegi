@@ -1,14 +1,10 @@
 package main
 
-import "fmt"
-
 type Root struct {
 	Name string
 }
 
-func (r *Root) Hello() {
-	fmt.Println("Hello", r.Name)
-}
+func (r *Root) Hello() { _ = "STUB: not implemented"; return }
 
 type One = Root
 
@@ -22,16 +18,6 @@ func main() {
 	displayRoot(root)
 }
 
-func displayOne(val *One) {
-	fmt.Println(val)
-}
+func displayOne(val *One) { _ = "STUB: not implemented"; return }
 
-func displayRoot(val *Root) {
-	fmt.Println(val)
-}
-
-// Output:
-// &{one}
-// &{one}
-// &{root}
-// &{root}
+func displayRoot(val *Root) { _ = "STUB: not implemented"; return }

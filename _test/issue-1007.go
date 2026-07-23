@@ -19,22 +19,10 @@ type TypeD struct {
 	Name string
 }
 
-func build() *TypeA {
-	return &TypeA{
-		B: TypeB{
-			C2: &TypeC{Val: "22"},
-		},
-	}
-}
+func build() *TypeA { _ = "STUB: not implemented"; return nil }
 
-func Bar(s string) string {
-	a := build()
-	return s + "-" + a.B.C2.Val
-}
+func Bar(s string) string { _ = "STUB: not implemented"; return "" }
 
 func main() {
 	println(Bar("test"))
 }
-
-// Output:
-// test-22

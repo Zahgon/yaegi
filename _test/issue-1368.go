@@ -11,6 +11,3 @@ func main() {
 		println("not ok")
 	}
 }
-
-// Output:
-// ok

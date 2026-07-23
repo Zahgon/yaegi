@@ -10,6 +10,3 @@ const (
 func main() {
 	println(13 & (numHex | numOct))
 }
-
-// Output:
-// 1

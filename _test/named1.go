@@ -11,6 +11,3 @@ type T struct {
 func main() {
 	fmt.Println(MyT{})
 }
-
-// Output:
-// {}

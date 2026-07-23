@@ -8,6 +8,3 @@ func main() {
 	buf = nil
 	fmt.Println(buf)
 }
-
-// Output:
-// []

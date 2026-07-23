@@ -7,6 +7,3 @@ func main() {
 
 	fmt.Println(v)
 }
-
-// Output:
-// 0

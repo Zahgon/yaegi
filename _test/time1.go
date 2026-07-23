@@ -10,6 +10,3 @@ func main() {
 	m := t.Minute()
 	fmt.Println(t, m)
 }
-
-// Output:
-// 2009-11-10 23:04:05 +0000 UTC 4

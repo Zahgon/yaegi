@@ -9,6 +9,3 @@ const (
 func main() {
 	println(a, b, c)
 }
-
-// Output:
-// 2 3 3

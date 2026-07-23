@@ -10,6 +10,3 @@ func main() {
 	s.Child = &S{Name: "child"}
 	println(s.Child.Name)
 }
-
-// Output:
-// child

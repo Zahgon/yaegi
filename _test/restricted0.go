@@ -13,6 +13,3 @@ func main() {
 	log.Fatal("log.Fatal does not exit")
 	println("not printed")
 }
-
-// Output:
-// recover: log.Fatal does not exit

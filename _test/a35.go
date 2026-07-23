@@ -8,6 +8,3 @@ func main() {
 	b[0] = -1
 	fmt.Println(a)
 }
-
-// Output:
-// [1 2 3]

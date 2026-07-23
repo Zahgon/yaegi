@@ -11,7 +11,3 @@ func main() {
 		fmt.Println(elem)
 	}
 }
-
-// Output:
-// one
-// two

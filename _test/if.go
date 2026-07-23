@@ -6,7 +6,4 @@ func main() {
 	}
 }
 
-func f() int { return 1 }
-
-// Output:
-// 1
+func f() int { _ = "STUB: not implemented"; return 0 }

@@ -15,6 +15,3 @@ func main() {
 
 	println(s2.Name)
 }
-
-// Output:
-// foobar

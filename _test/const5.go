@@ -14,7 +14,3 @@ func main() {
 	fmt.Printf("%T\n", c)
 	fmt.Println(a, b, c)
 }
-
-// Output:
-// uint8
-// 0 2 4

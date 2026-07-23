@@ -10,6 +10,3 @@ func main() {
 	var s fmt.Stringer = &addr
 	fmt.Println(s.String())
 }
-
-// Output:
-// 1.1.1.1:80

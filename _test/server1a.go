@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-	"log"
 	"net/http"
 )
 
@@ -13,10 +11,8 @@ type Middleware struct {
 }
 
 func (m *Middleware) Handler(w http.ResponseWriter, r *http.Request) {
-	log.Println(r.Header.Get("User-Agent"))
-	w.Header().Set("test", "ok")
-	log.Println(w.Header())
-	fmt.Fprintln(w, "Welcome to my website", m.Name)
+	_ = "STUB: not implemented"
+	return
 }
 
 func main() {

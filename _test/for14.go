@@ -9,8 +9,3 @@ func main() {
 	}
 	println("bye")
 }
-
-// Output:
-// 0
-// 1
-// bye

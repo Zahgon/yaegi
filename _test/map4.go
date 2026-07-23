@@ -6,7 +6,3 @@ func main() {
 	println(dict["bidule"])
 	println(dict["hello"])
 }
-
-// Output:
-// machin
-// bonjour

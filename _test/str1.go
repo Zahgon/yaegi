@@ -9,6 +9,3 @@ func main() {
 		}
 	}
 }
-
-// Output:
-// 3

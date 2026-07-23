@@ -5,6 +5,3 @@ func main() {
 	_ = a + b
 	println("ok")
 }
-
-// Output:
-// ok

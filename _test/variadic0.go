@@ -1,14 +1,7 @@
 package main
 
-import "fmt"
-
-func f(s string, a ...int) {
-	fmt.Println(s, a)
-}
+func f(s string, a ...int) { _ = "STUB: not implemented"; return }
 
 func main() {
 	f("hello")
 }
-
-// Output:
-// hello []

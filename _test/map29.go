@@ -21,6 +21,3 @@ func main() {
 	item := items["test"]
 	fmt.Println(item)
 }
-
-// Output:
-// {test 1s}

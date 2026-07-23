@@ -13,6 +13,3 @@ func main() {
 		fmt.Println(key, value)
 	}
 }
-
-// Output:
-// Foo [Bar]

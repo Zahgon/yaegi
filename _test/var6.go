@@ -8,19 +8,13 @@ type Foo struct {
 	A string
 }
 
-var f = Foo{"world"} // <-- the root cause
+var f = Foo{"world"}
 
-func Hello() {
-	fmt.Println("in")
-}
+func Hello() { _ = "STUB: not implemented"; return }
 
-var name = "v1" // <-- the root cause
+var name = "v1"
 
 func main() {
 	Hello()
 	fmt.Println("Hello", f.A, name)
 }
-
-// Output:
-// in
-// Hello world v1

@@ -5,10 +5,4 @@ var (
 	C = D
 )
 
-func concat(a ...string) string {
-	var s string
-	for _, ss := range a {
-		s += ss
-	}
-	return s
-}
+func concat(a ...string) string { _ = "STUB: not implemented"; return "" }

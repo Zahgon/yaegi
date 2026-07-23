@@ -10,6 +10,3 @@ func main() {
 	s := base64.RawStdEncoding.EncodeToString(buf[:])
 	fmt.Println(s)
 }
-
-// Output:
-// AAAAAA

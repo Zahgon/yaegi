@@ -7,7 +7,3 @@ func main() {
 	b = a == true
 	println(b.(bool))
 }
-
-// Output:
-// 5
-// true

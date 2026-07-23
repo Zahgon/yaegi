@@ -22,6 +22,3 @@ func main() {
 	}
 	fmt.Println(t)
 }
-
-// Output:
-// [{[{hello}] world}]

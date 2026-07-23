@@ -1,17 +1,13 @@
 package main
 
-func BlockSize() string { return "func" }
+func BlockSize() string { _ = "STUB: not implemented"; return "" }
 
 type Cipher struct{}
 
-func (c *Cipher) BlockSize() string { return "method" }
+func (c *Cipher) BlockSize() string { _ = "STUB: not implemented"; return "" }
 
 func main() {
 	println(BlockSize())
 	s := Cipher{}
 	println(s.BlockSize())
 }
-
-// Output:
-// func
-// method

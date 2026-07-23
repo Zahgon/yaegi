@@ -7,6 +7,3 @@ func main() {
 	b := a
 	fmt.Printf("%T %T\n", a, b)
 }
-
-// Output:
-// [0]uint8 [0]uint8

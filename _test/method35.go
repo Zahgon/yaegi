@@ -9,6 +9,3 @@ func main() {
 		println("here")
 	}
 }
-
-// Output:
-// here

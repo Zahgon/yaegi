@@ -14,8 +14,3 @@ func main() {
 	}
 	println(tmpStr)
 }
-
-// Output:
-// start
-// m1
-// start

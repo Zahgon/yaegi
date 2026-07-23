@@ -10,8 +10,3 @@ func main() {
 	}()
 	println("world")
 }
-
-// Output:
-// hello
-// world
-// recover: <nil>

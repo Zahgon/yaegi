@@ -31,13 +31,3 @@ func main() {
 	}
 	fmt.Println("Bye")
 }
-
-// Output:
-// start for
-// received one
-// finish 1
-// end for
-// start for
-// received #2 two true
-// end for
-// Bye

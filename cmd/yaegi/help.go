@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 const usage = `Yaegi is a Go interpreter.
 
 Usage:
@@ -22,26 +20,4 @@ If no command is given or if the first argument is not a command, then
 the run command is assumed.
 `
 
-func help(arg []string) error {
-	var cmd string
-	if len(arg) > 0 {
-		cmd = arg[0]
-	}
-
-	switch cmd {
-	case Extract:
-		return extractCmd([]string{"-h"})
-	case Help, "", "-h", "--help":
-		fmt.Print(usage)
-		return nil
-	case Run:
-		return run([]string{"-h"})
-	case Test:
-		return test([]string{"-h"})
-	case Version:
-		fmt.Println("Usage: yaegi version")
-		return nil
-	default:
-		return fmt.Errorf("help: invalid yaegi command: %v", cmd)
-	}
-}
+func help(arg []string) error { _ = "STUB: not implemented"; return nil }

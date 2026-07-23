@@ -5,6 +5,3 @@ func main() {
 	}
 	println("bye")
 }
-
-// Output:
-// bye

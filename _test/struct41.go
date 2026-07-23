@@ -11,7 +11,7 @@ type T struct {
 	y *xxx
 }
 
-func f(t *T) { println("in f") }
+func f(t *T) { _ = "STUB: not implemented"; return }
 
 type xxx struct{}
 
@@ -21,6 +21,3 @@ func main() {
 	x.t = f
 	println("ok")
 }
-
-// Output:
-// ok

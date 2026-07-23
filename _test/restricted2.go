@@ -9,6 +9,3 @@ func main() {
 	p, err := os.FindProcess(os.Getpid())
 	fmt.Println(p, err)
 }
-
-// Output:
-// <nil> restricted

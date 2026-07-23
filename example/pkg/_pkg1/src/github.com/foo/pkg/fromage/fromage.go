@@ -1,7 +1,3 @@
 package fromage
 
-import "fmt"
-
-func Hello() string {
-	return fmt.Sprint("Fromage!")
-}
+func Hello() string { _ = "STUB: not implemented"; return "" }

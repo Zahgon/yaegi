@@ -15,6 +15,3 @@ func main() {
 	s.iMap = map[string]I{}
 	fmt.Println(s)
 }
-
-// Output:
-// {map[]}

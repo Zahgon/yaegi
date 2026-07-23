@@ -8,7 +8,3 @@ func main() {
 	t["a"], t["b"] = t["b"], t["a"]
 	fmt.Println(t["a"], t["b"])
 }
-
-// Output:
-// 1 2
-// 2 1

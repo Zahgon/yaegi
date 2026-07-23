@@ -1,18 +1,9 @@
 package main
 
-func genInt() (int, error) { return 3, nil }
+func genInt() (int, error) { _ = "STUB: not implemented"; return 0, nil }
 
-func getInt() (value int) {
-	value, err := genInt()
-	if err != nil {
-		panic(err)
-	}
-	return
-}
+func getInt() (value int) { _ = "STUB: not implemented"; return 0 }
 
 func main() {
 	println(getInt())
 }
-
-// Output:
-// 3

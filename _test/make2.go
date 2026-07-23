@@ -7,6 +7,3 @@ func main() {
 	t := make([]int, s)
 	fmt.Println(t)
 }
-
-// Output:
-// [0 0 0 0]

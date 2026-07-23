@@ -12,6 +12,3 @@ const (
 func main() {
 	println(None, Left, Right, Both)
 }
-
-// Output:
-// 0 2 4 6

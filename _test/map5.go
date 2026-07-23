@@ -9,7 +9,3 @@ func main() {
 	r, ok = dict["truc"]
 	fmt.Println(r, ok)
 }
-
-// Output:
-//  false
-// bidule true

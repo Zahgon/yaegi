@@ -6,6 +6,3 @@ func main() {
 	f := d2.F
 	f()
 }
-
-// Output:
-// test

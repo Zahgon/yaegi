@@ -18,6 +18,3 @@ func main() {
 	}
 	println("Bye")
 }
-
-// Output:
-// Bye

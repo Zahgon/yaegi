@@ -18,8 +18,3 @@ func main() {
 	foos[1].F()
 	foos[2].F()
 }
-
-// Output:
-// 0 0 i=0
-// 1 1 i=1
-// 2 2 i=2

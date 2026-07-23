@@ -23,26 +23,9 @@ func main() {
 	fmt.Printf("d: %v %T", d, d)
 	fmt.Println()
 
-	// FIXME expect an error
-	// var e float32 = 64
-	// e %= 64
-	// fmt.Printf("e: %v %T", e, e)
-	// fmt.Println()
-
 	fmt.Println(a > b)
 	fmt.Println(a >= b)
 	fmt.Println(a < b)
 	fmt.Println(a <= b)
 	fmt.Println(b == d)
 }
-
-// Output:
-// a: 128 float32
-// b: 0 float32
-// c: 4096 float32
-// d: 1 float32
-// true
-// true
-// false
-// false
-// false

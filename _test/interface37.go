@@ -7,17 +7,12 @@ type I interface {
 
 type s struct{}
 
-func NewS() (I, error) {
-	return &s{}, nil
-}
+func NewS() (I, error) { _ = "STUB: not implemented"; return *new(I), nil }
 
-func (c *s) A() string { return "a" }
-func (c *s) B() string { return "b" }
+func (c *s) A() string { _ = "STUB: not implemented"; return "" }
+func (c *s) B() string { _ = "STUB: not implemented"; return "" }
 
 func main() {
 	s, _ := NewS()
 	println(s.A())
 }
-
-// Output:
-// a

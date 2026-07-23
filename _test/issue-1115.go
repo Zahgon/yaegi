@@ -14,11 +14,3 @@ outer:
 	}
 	fmt.Println("Yay! I finished!")
 }
-
-// Output:
-// 0
-// 1
-// 2
-// 3
-// 4
-// Yay! I finished!

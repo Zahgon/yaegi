@@ -8,6 +8,3 @@ func main() {
 	var a = &Foo{3}
 	println(a.val)
 }
-
-// Output:
-// 3

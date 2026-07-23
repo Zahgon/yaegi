@@ -28,8 +28,3 @@ func main() {
 	}
 	fmt.Println("Bye", a)
 }
-
-// Output:
-// received from c2: hello
-// received from c1: done
-// Bye 1

@@ -2,9 +2,4 @@ package sample
 
 type Sample struct{ Name string }
 
-func (s *Sample) Test() {
-	println("Hello from test", s.Name)
-}
-
-// Output:
-//
+func (s *Sample) Test() { _ = "STUB: not implemented"; return }

@@ -7,6 +7,3 @@ func main() {
 	var a iface = 5 + b
 	println(a.(int))
 }
-
-// Output:
-// 7

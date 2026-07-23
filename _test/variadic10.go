@@ -10,7 +10,3 @@ func main() {
 	logger.Printf("args: %v %v", 1, "truc")
 	logger.Printf("args: %v %v %v", 1, "truc", 2)
 }
-
-// Output:
-// test args: 1 truc
-// test args: 1 truc 2

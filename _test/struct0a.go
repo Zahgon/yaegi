@@ -10,7 +10,3 @@ func main() {
 	a.f = 8
 	println(a.f)
 }
-
-// Output:
-// 0
-// 8

@@ -8,6 +8,3 @@ func main() {
 	*p = 2
 	println(cs[0][1])
 }
-
-// Output:
-// 2

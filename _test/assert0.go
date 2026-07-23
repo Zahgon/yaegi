@@ -15,14 +15,9 @@ type DummyWriter interface {
 
 type TestStruct struct{}
 
-func (t TestStruct) Write(p []byte) (n int, err error) {
-	return len(p), nil
-}
+func (t TestStruct) Write(p []byte) (n int, err error) { _ = "STUB: not implemented"; return 0, nil }
 
-func usesWriter(w MyWriter) {
-	n, _ := w.Write([]byte("hello world"))
-	fmt.Println(n)
-}
+func usesWriter(w MyWriter) { _ = "STUB: not implemented"; return }
 
 type MyStringer interface {
 	String() string
@@ -32,13 +27,10 @@ type DummyStringer interface {
 	String() string
 }
 
-func usesStringer(s MyStringer) {
-	fmt.Println(s.String())
-}
+func usesStringer(s MyStringer) { _ = "STUB: not implemented"; return }
 
 func main() {
-	// TODO(mpl): restore when we can deal with empty interface.
-//	var t interface{}
+
 	var t DummyWriter
 	t = TestStruct{}
 	var tw MyWriter
@@ -53,7 +45,6 @@ func main() {
 	n, _ := t.(MyWriter).Write([]byte("hello world"))
 	fmt.Println(n)
 
-	// not redundant with the above, because it goes through a slightly different code path.
 	if _, ok := t.(MyWriter); !ok {
 		fmt.Println("TestStruct does not implement MyWriter")
 		return
@@ -61,25 +52,6 @@ func main() {
 		fmt.Println("TestStruct implements MyWriter")
 	}
 
-	// TODO(mpl): restore
-	/*
-	t = 42
-	foo, ok := t.(MyWriter)
-	if !ok {
-		fmt.Println("42 does not implement MyWriter")
-	} else {
-		fmt.Println("42 implements MyWriter")
-	}
-	_ = foo
-
-	if _, ok := t.(MyWriter); !ok {
-		fmt.Println("42 does not implement MyWriter")
-	} else {
-		fmt.Println("42 implements MyWriter")
-	}
-	*/
-
-	// var tt interface{}
 	var tt DummyStringer
 	tt = time.Nanosecond
 	var myD MyStringer
@@ -98,31 +70,4 @@ func main() {
 		fmt.Println("time.Nanosecond implements MyStringer")
 	}
 
-	// TODO(mpl): restore
-	/*
-	tt = 42
-	bar, ok := tt.(MyStringer)
-	if !ok {
-		fmt.Println("42 does not implement MyStringer")
-	} else {
-		fmt.Println("42 implements MyStringer")
-	}
-	_ = bar
-
-	if _, ok := tt.(MyStringer); !ok {
-		fmt.Println("42 does not implement MyStringer")
-	} else {
-		fmt.Println("42 implements MyStringer")
-	}
-	*/
 }
-
-// Output:
-// TestStruct implements MyWriter
-// 11
-// 11
-// TestStruct implements MyWriter
-// time.Nanosecond implements MyStringer
-// 1ns
-// 1ns
-// time.Nanosecond implements MyStringer

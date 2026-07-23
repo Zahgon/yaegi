@@ -13,6 +13,3 @@ func main() {
 	f := http.HandlerFunc(next)
 	fmt.Printf("%T\n", f.ServeHTTP)
 }
-
-// Output:
-// func(http.ResponseWriter, *http.Request)

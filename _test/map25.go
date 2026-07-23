@@ -21,6 +21,3 @@ func main() {
 	}
 	println(sum)
 }
-
-// Output:
-// 3

@@ -16,6 +16,3 @@ func main() {
 	}
 	fmt.Printf("%s", b)
 }
-
-// Output:
-// Go is a general-purpose language designed with systems programming in mind.

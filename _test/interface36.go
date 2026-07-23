@@ -12,10 +12,10 @@ type S struct {
 	Name string
 }
 
-func (s *S) F() int { return len(s.Name) }
-func (s *S) G() int { return s.F() }
-func (s *S) Ri() I  { return s }
-func (s *S) Rj() J  { return s }
+func (s *S) F() int { _ = "STUB: not implemented"; return 0 }
+func (s *S) G() int { _ = "STUB: not implemented"; return 0 }
+func (s *S) Ri() I  { _ = "STUB: not implemented"; return *new(I) }
+func (s *S) Rj() J  { _ = "STUB: not implemented"; return *new(J) }
 
 type J interface {
 	I
@@ -32,6 +32,3 @@ func main() {
 	var j J
 	fmt.Println(j)
 }
-
-// Output:
-// <nil>

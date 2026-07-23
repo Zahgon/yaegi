@@ -21,11 +21,8 @@ func main() {
 		{X: 3},
 	}
 	addr := unsafe.Pointer(&arr[0])
-	// s := *(*S)(unsafe.Pointer(uintptr(addr) + SSize*2))
+
 	s := *(*S)(unsafe.Pointer(uintptr(addr) + WSize*6))
 
 	fmt.Println(s.X)
 }
-
-// Output:
-// 3

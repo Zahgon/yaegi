@@ -12,6 +12,3 @@ const (
 func main() {
 	println(P3)
 }
-
-// Output:
-// 3

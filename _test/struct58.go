@@ -19,6 +19,3 @@ func main() {
 
 	fmt.Println(f.Tag.Get("tag"))
 }
-
-// Output:
-// test

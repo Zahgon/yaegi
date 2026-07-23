@@ -31,6 +31,3 @@ func main() {
 		fmt.Print(mk.test(), " ")
 	}
 }
-
-// Output:
-// 1 2 3 1 2 3

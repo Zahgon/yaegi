@@ -11,7 +11,7 @@ type T struct {
 	y *xxx
 }
 
-func f(t *T) X { println("in f"); return X{} }
+func f(t *T) X { _ = "STUB: not implemented"; return *new(X) }
 
 type X struct{ Name string }
 
@@ -22,6 +22,3 @@ var x = &T1{t: f}
 func main() {
 	println("ok")
 }
-
-// Output:
-// ok

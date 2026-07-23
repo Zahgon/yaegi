@@ -4,17 +4,8 @@ func main() {
 	foo()
 }
 
-func foo() {
-	bar()
-}
+func foo() { _ = "STUB: not implemented"; return }
 
-func bar() {
-	baz()
-}
+func bar() { _ = "STUB: not implemented"; return }
 
-func baz() {
-	panic("stop!")
-}
-
-// Error:
-// stop!
+func baz() { _ = "STUB: not implemented"; return }

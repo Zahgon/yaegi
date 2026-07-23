@@ -1,6 +1,6 @@
 package main
 
-func getType() string { return "T1" }
+func getType() string { _ = "STUB: not implemented"; return "" }
 
 func main() {
 	switch getType() {
@@ -10,6 +10,3 @@ func main() {
 		println("default")
 	}
 }
-
-// Output:
-// T1

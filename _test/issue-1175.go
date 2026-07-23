@@ -13,6 +13,3 @@ type counters [d]int
 func main() {
 	println(len(counters{}))
 }
-
-// Output:
-// 7

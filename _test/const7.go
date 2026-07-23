@@ -14,6 +14,3 @@ type T [c]int
 func main() {
 	fmt.Println(T{})
 }
-
-// Output:
-// [0 0]

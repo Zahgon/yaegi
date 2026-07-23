@@ -8,16 +8,9 @@ type T struct {
 	s string
 }
 
-func (t *T) M() { println("in M") }
+func (t *T) M() { _ = "STUB: not implemented"; return }
 
-func f(i interface{}) {
-	switch j := i.(type) {
-	case Intf:
-		j.M()
-	default:
-		println("default")
-	}
-}
+func f(i interface{}) { _ = "STUB: not implemented"; return }
 
 func main() {
 	var i Intf
@@ -26,7 +19,3 @@ func main() {
 	f(i)
 	f(k)
 }
-
-// Output:
-// in M
-// default

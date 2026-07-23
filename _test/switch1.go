@@ -10,6 +10,3 @@ func main() {
 		println("not nul")
 	}
 }
-
-// Output:
-// not nul

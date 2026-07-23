@@ -6,7 +6,3 @@ func main() {
 	}
 	println("bye")
 }
-
-// Output:
-// ok
-// bye

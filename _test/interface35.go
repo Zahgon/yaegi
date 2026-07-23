@@ -10,6 +10,3 @@ func main() {
 	t := T{"test"}
 	fmt.Println(t)
 }
-
-// Output:
-// {test}

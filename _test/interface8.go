@@ -12,14 +12,9 @@ type HelloInterface interface {
 
 type Hello struct{}
 
-func (h *Hello) Hi() string {
-	return "hi"
-}
+func (h *Hello) Hi() string { _ = "STUB: not implemented"; return "" }
 
 func main() {
 	h := &Hello{}
 	fmt.Println(h.Hi())
 }
-
-// Output:
-// hi

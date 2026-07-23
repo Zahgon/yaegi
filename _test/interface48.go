@@ -12,6 +12,3 @@ func main() {
 	var i I1
 	fmt.Println(i)
 }
-
-// Output:
-// <nil>

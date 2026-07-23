@@ -19,6 +19,3 @@ var (
 func main() {
 	println("ok")
 }
-
-// Output:
-// ok

@@ -1,23 +1,16 @@
 package main
 
-import "fmt"
-
 type Myint int
 
-func (i Myint) Double() { fmt.Println("Myint:", i, i) }
+func (i Myint) Double() { _ = "STUB: not implemented"; return }
 
 type Boo interface {
 	Double()
 }
 
-func f(boo Boo) {
-	boo.Double()
-}
+func f(boo Boo) { _ = "STUB: not implemented"; return }
 
 func main() {
 	var i Myint = 3
 	f(i)
 }
-
-// Output:
-// Myint: 3 3

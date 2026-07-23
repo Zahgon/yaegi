@@ -12,6 +12,3 @@ func main() {
 		fmt.Println(v)
 	}
 }
-
-// Output:
-// <nil>

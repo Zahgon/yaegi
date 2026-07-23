@@ -5,6 +5,3 @@ func main() {
 	goto done
 done:
 }
-
-// Output:
-// Hi

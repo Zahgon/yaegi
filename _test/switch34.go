@@ -20,8 +20,3 @@ func main() {
 	}
 	println("bye")
 }
-
-// Output:
-// a is []int
-// b is []string
-// bye

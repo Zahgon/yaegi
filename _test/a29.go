@@ -18,6 +18,3 @@ func main() {
 	}
 	fmt.Printf("%v %T\n", a, a)
 }
-
-// Output:
-// [zero one  three  five] [6]string

@@ -9,6 +9,3 @@ func main() {
 	b := a[from:to]
 	fmt.Print(b)
 }
-
-// Output:
-// [3 4]

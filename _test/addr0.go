@@ -18,7 +18,3 @@ func main() {
 	fmt.Printf("%T\n", r.Request)
 	fmt.Printf("%T\n", req)
 }
-
-// Output:
-// http.Request
-// *http.Request

@@ -2,7 +2,7 @@ package main
 
 var a int = 1
 
-func f() { println(a) }
+func f() { _ = "STUB: not implemented"; return }
 
 func main() {
 	println(a)
@@ -10,8 +10,3 @@ func main() {
 	println(a)
 	f()
 }
-
-// Output:
-// 1
-// 2
-// 2

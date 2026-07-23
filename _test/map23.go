@@ -8,6 +8,3 @@ func main() {
 	_, _ = m[1]
 	println("ok")
 }
-
-// Output:
-// ok

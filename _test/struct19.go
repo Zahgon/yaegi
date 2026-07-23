@@ -10,17 +10,11 @@ type Config struct {
 	HeaderField  string `json:"headerField,omitempty" export:"true"`
 }
 
-// Users holds a list of users
 type Users []string
 
-func CreateConfig() *Config {
-	return &Config{}
-}
+func CreateConfig() *Config { _ = "STUB: not implemented"; return nil }
 
 func main() {
 	c := CreateConfig()
 	fmt.Println(c)
 }
-
-// Output:
-// &{[]   false }

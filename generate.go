@@ -1,4 +1,3 @@
-// Package yaegi provides a Go interpreter.
 package yaegi
 
 //go:generate go generate github.com/traefik/yaegi/internal/cmd/extract

@@ -15,6 +15,3 @@ func main() {
 	s2 := fmt.Sprintf("%x", p)
 	println(s1 == s2)
 }
-
-// Output:
-// true

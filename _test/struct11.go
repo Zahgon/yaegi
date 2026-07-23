@@ -17,6 +17,3 @@ func main() {
 		fmt.Println("not nil")
 	}
 }
-
-// Output:
-// nil

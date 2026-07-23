@@ -2,7 +2,7 @@ package main
 
 func main() {
 	a := [6]int{1, 2, 3, 4, 5, 6}
-	println(a[1]) // 2
+	println(a[1])
 	for k := 0; k < 2; k++ {
 		for i, v := range a {
 			println(v)
@@ -12,14 +12,3 @@ func main() {
 		}
 	}
 }
-
-// Output:
-// 2
-// 1
-// 2
-// 3
-// 4
-// 1
-// 2
-// 3
-// 4

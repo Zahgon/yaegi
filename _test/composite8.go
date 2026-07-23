@@ -11,6 +11,3 @@ func main() {
 	}
 	println(t[0].I, t[1].I)
 }
-
-// Output:
-// 1 2

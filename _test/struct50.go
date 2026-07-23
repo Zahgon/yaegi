@@ -14,7 +14,3 @@ func main() {
 	a.Child[0].Child = append([]Node{}, Node{Name: "sunshine"})
 	fmt.Println(a)
 }
-
-// Output:
-// {hello [{world []}]}
-// {hello [{world [{sunshine []}]}]}

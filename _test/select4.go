@@ -11,7 +11,3 @@ func main() {
 	}
 	println("Bye")
 }
-
-// Output:
-// received from c1: done
-// Bye

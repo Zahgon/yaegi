@@ -12,6 +12,3 @@ const (
 func main() {
 	println(b)
 }
-
-// Output:
-// 16

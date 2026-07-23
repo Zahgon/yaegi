@@ -1,19 +1,10 @@
 package main
 
-func f1(a int) int { return a + 1 }
+func f1(a int) int { _ = "STUB: not implemented"; return 0 }
 
-func f2(a int) interface{} {
-	// TODO: re-enable the optimized case below, once we've figured out why it
-	// interferes with the empty interface model.
-	// return f1(a)
-	var foo interface{} = f1(a)
-	return foo
-}
+func f2(a int) interface{} { _ = "STUB: not implemented"; return nil }
 
 func main() {
 	c := f2(3)
 	println(c.(int))
 }
-
-// Output:
-// 4

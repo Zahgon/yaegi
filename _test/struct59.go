@@ -36,6 +36,3 @@ func main() {
 	}
 	fmt.Println(conf)
 }
-
-// Output:
-// &{map[] map[]}

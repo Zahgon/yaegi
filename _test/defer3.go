@@ -11,6 +11,3 @@ func main() {
 	server := httptest.NewServer(mux)
 	defer server.Close()
 }
-
-// Output:
-// hello

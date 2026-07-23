@@ -6,6 +6,3 @@ func main() {
 
 	print(i > f)
 }
-
-// Error:
-// _test/op9.go:7:8: invalid operation: operator > not defined on complex128

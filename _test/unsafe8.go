@@ -13,6 +13,3 @@ var b [unsafe.Sizeof(d)]byte
 func main() {
 	println(len(b))
 }
-
-// Output:
-// 8

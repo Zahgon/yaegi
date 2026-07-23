@@ -7,6 +7,3 @@ func main() {
 	b := a
 	fmt.Println(b)
 }
-
-// Output:
-// [1 2 3]

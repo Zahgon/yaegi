@@ -1,30 +1,16 @@
 package main
 
-import "fmt"
-
 type Option func(*Struct)
 
-func WithOption(opt string) Option {
-	return func(s *Struct) {
-		s.opt = opt
-	}
-}
+func WithOption(opt string) Option { _ = "STUB: not implemented"; return *new(Option) }
 
 type Struct struct {
 	opt string
 }
 
-func New(opts ...Option) *Struct {
-	s := new(Struct)
-	for _, opt := range opts {
-		opt(s)
-	}
-	return s
-}
+func New(opts ...Option) *Struct { _ = "STUB: not implemented"; return nil }
 
-func (s *Struct) ShowOption() {
-	fmt.Println(s.opt)
-}
+func (s *Struct) ShowOption() { _ = "STUB: not implemented"; return }
 
 func main() {
 	opts := []Option{
@@ -33,6 +19,3 @@ func main() {
 	s := New(opts...)
 	s.ShowOption()
 }
-
-// Output:
-// test

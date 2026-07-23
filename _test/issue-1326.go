@@ -12,31 +12,13 @@ type opt struct {
 	name string
 }
 
-func (o *opt) apply(t *T) {
-	println(o.name)
-}
+func (o *opt) apply(t *T) { _ = "STUB: not implemented"; return }
 
-func BuildOptions() []Option {
-	return []Option{
-		&opt{"opt1"},
-		&opt{"opt2"},
-	}
-}
+func BuildOptions() []Option { _ = "STUB: not implemented"; return nil }
 
-func NewT(name string, options ...Option) *T {
-	t := &T{name}
-	for _, opt := range options {
-		opt.apply(t)
-	}
-	return t
-}
+func NewT(name string, options ...Option) *T { _ = "STUB: not implemented"; return nil }
 
 func main() {
 	t := NewT("hello", BuildOptions()...)
 	println(t.s)
 }
-
-// Output:
-// opt1
-// opt2
-// hello

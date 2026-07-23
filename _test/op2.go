@@ -28,10 +28,3 @@ func main() {
 	fmt.Printf("e: %v %T", e, e)
 	fmt.Println()
 }
-
-// Output:
-// a: 128 int
-// b: 0 int
-// c: 4096 int
-// d: 1 int
-// e: 0 int

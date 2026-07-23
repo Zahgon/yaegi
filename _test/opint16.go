@@ -34,15 +34,3 @@ func main() {
 	fmt.Println(a <= b)
 	fmt.Println(b == e)
 }
-
-// Output:
-// a: 128 int16
-// b: 0 int16
-// c: 4096 int16
-// d: 1 int16
-// e: 0 int16
-// true
-// true
-// false
-// false
-// true

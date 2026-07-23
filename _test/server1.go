@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"net/http"
 )
 
@@ -12,7 +11,8 @@ type Middleware struct {
 }
 
 func (m *Middleware) Handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Welcome to my website", m.Name, version)
+	_ = "STUB: not implemented"
+	return
 }
 
 func main() {

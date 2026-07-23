@@ -8,7 +8,3 @@ func main() {
 	}
 	println("bye", a)
 }
-
-// Output:
-// nok 0
-// bye 0

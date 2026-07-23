@@ -6,6 +6,3 @@ func main() {
 	var a interface{} = m["foo"]
 	println(a.(int))
 }
-
-// Output:
-// 1

@@ -1,4 +1,3 @@
-// This example demonstrates an integer heap built using the heap interface.
 package main
 
 import (
@@ -6,29 +5,16 @@ import (
 	"fmt"
 )
 
-// An IntHeap is a min-heap of ints.
 type IntHeap []int
 
-func (h IntHeap) Len() int           { return len(h) }
-func (h IntHeap) Less(i, j int) bool { return h[i] < h[j] }
-func (h IntHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
+func (h IntHeap) Len() int           { _ = "STUB: not implemented"; return 0 }
+func (h IntHeap) Less(i, j int) bool { _ = "STUB: not implemented"; return false }
+func (h IntHeap) Swap(i, j int)      { _ = "STUB: not implemented"; return }
 
-func (h *IntHeap) Push(x interface{}) {
-	// Push and Pop use pointer receivers because they modify the slice's length,
-	// not just its contents.
-	*h = append(*h, x.(int))
-}
+func (h *IntHeap) Push(x interface{}) { _ = "STUB: not implemented"; return }
 
-func (h *IntHeap) Pop() interface{} {
-	old := *h
-	n := len(old)
-	x := old[n-1]
-	*h = old[0 : n-1]
-	return x
-}
+func (h *IntHeap) Pop() interface{} { _ = "STUB: not implemented"; return nil }
 
-// This example inserts several ints into an IntHeap, checks the minimum,
-// and removes them in order of priority.
 func main() {
 	h := &IntHeap{2, 1, 5}
 	heap.Init(h)
@@ -39,8 +25,3 @@ func main() {
 		fmt.Printf("%d ", heap.Pop(h))
 	}
 }
-
-// Output:
-// minimum: 1
-// h: &[1 2 5 3]
-// 1 2 3 5

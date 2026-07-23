@@ -7,6 +7,3 @@ func main() {
 	str += fmt.Sprintf("%s", "part2")
 	fmt.Println(str)
 }
-
-// Output:
-// part1part2

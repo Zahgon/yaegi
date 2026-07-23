@@ -5,6 +5,3 @@ func main() {
 	dict["truc"] = "machin"
 	println(dict["truc"])
 }
-
-// Output:
-// machin

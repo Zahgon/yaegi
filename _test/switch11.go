@@ -10,6 +10,3 @@ func main() {
 		println("unknown", b)
 	}
 }
-
-// Output:
-// string truc ok

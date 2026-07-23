@@ -11,7 +11,3 @@ func main() {
 	panic("test panic")
 	println("world")
 }
-
-// Output:
-// hello
-// recover: test panic

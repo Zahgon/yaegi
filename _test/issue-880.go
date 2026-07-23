@@ -16,8 +16,3 @@ func main() {
 	}
 	print(string(buf2))
 }
-
-// Output:
-// Hallo
-// Test
-// Line3

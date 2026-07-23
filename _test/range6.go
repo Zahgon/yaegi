@@ -11,8 +11,3 @@ func main() {
 		fmt.Println(v)
 	}
 }
-
-// Output:
-// true
-// true
-// true

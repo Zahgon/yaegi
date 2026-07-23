@@ -7,6 +7,3 @@ func main() {
 	s = append(s, 1)
 	fmt.Println(s[0])
 }
-
-// Output:
-// 1

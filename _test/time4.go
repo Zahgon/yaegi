@@ -10,6 +10,3 @@ func main() {
 	m = 9
 	fmt.Println(m)
 }
-
-// Output:
-// September

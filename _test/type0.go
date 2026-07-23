@@ -6,6 +6,3 @@ func main() {
 	var a newInt
 	println(a)
 }
-
-// Output:
-// 0

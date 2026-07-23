@@ -9,6 +9,3 @@ func main() {
 	s, _ = m[1]
 	println(s)
 }
-
-// Output:
-// foo

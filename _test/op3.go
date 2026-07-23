@@ -8,7 +8,3 @@ func main() {
 	b := -(2 + 1i)
 	fmt.Printf("b: %v %T\n", b, b)
 }
-
-// Output:
-// a: -1.2 float64
-// b: (-2-1i) complex128

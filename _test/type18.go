@@ -15,6 +15,3 @@ var s = table[0].size
 func main() {
 	println(s)
 }
-
-// Output:
-// 2

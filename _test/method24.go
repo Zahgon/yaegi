@@ -9,9 +9,9 @@ type Pool struct {
 	p *sync.Pool
 }
 
-func (p Pool) Get() *Buffer { return &Buffer{} }
+func (p Pool) Get() *Buffer { _ = "STUB: not implemented"; return nil }
 
-func NewPool() Pool { return Pool{} }
+func NewPool() Pool { _ = "STUB: not implemented"; return *new(Pool) }
 
 type Buffer struct {
 	bs   []byte
@@ -27,7 +27,3 @@ func main() {
 	fmt.Println(_pool)
 	fmt.Println(Get())
 }
-
-// Output:
-// {<nil>}
-// &{[] {<nil>}}

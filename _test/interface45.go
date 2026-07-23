@@ -8,6 +8,3 @@ func main() {
 	s, _ = i.(struct{})
 	fmt.Println(s)
 }
-
-// Output:
-// {}

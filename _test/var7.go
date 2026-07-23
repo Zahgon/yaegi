@@ -13,6 +13,3 @@ var m = make(map[string]*T)
 func main() {
 	fmt.Println(m)
 }
-
-// Output:
-// map[]

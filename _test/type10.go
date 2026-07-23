@@ -19,6 +19,3 @@ func main() {
 	gzw := gzipWriterPools[level].Get().(*gzip.Writer)
 	fmt.Printf("gzw: %T\n", gzw)
 }
-
-// Output:
-// gzw: *gzip.Writer

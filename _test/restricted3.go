@@ -18,6 +18,3 @@ func main() {
 	}()
 	logger.Fatal("test log")
 }
-
-// Output:
-// recover: test log logger: restricted.go:39: test log

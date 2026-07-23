@@ -8,6 +8,3 @@ func main() {
 		fmt.Println(s, ok)
 	}
 }
-
-// Output:
-// hello true

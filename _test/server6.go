@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"net/http"
 )
 
@@ -14,11 +13,8 @@ type T1 struct {
 }
 
 func (t *T1) Handler(h http.Handler) http.Handler {
-	fmt.Println("#1", t.Name)
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		fmt.Println("#2", t.Name)
-		h.ServeHTTP(w, r)
-	})
+	_ = "STUB: not implemented"
+	return *new(http.Handler)
 }
 
 func main() {

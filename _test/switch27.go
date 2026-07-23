@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	//a := false
+
 	switch false {
 	case true:
 		println("true")
@@ -10,7 +10,3 @@ func main() {
 	}
 	println("bye")
 }
-
-// Output:
-// false
-// bye

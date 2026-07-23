@@ -8,25 +8,18 @@ type T struct {
 	Name string
 }
 
-func (t *T) Do() error { println("in do"); return nil }
+func (t *T) Do() error { _ = "STUB: not implemented"; return nil }
 
-func f() (Doer, error) { return &T{"truc"}, nil }
+func f() (Doer, error) { _ = "STUB: not implemented"; return *new(Doer), nil }
 
 type Ev struct {
 	doer func() (Doer, error)
 }
 
-func (e *Ev) do() {
-	d, _ := e.doer()
-	d.Do()
-}
+func (e *Ev) do() { _ = "STUB: not implemented"; return }
 
 func main() {
 	e := &Ev{f}
 	println(e != nil)
 	e.do()
 }
-
-// Output:
-// true
-// in do

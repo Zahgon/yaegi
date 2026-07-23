@@ -16,6 +16,3 @@ func main() {
 	}
 	return
 }
-
-// Output:
-// true

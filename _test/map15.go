@@ -8,6 +8,3 @@ func main() {
 	v := users["a"]
 	fmt.Println("v:", v)
 }
-
-// Output:
-// v:

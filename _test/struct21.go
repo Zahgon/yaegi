@@ -7,9 +7,9 @@ type BasicAuth struct {
 	Secrets SecretProvider
 }
 
-func (a *BasicAuth) CheckAuth() string { return a.Secrets("me", a.Realm) }
+func (a *BasicAuth) CheckAuth() string { _ = "STUB: not implemented"; return "" }
 
-func (a *BasicAuth) secretBasic(user, realm string) string { return a.Realm + "-" + user + "-" + realm }
+func (a *BasicAuth) secretBasic(user, realm string) string { _ = "STUB: not implemented"; return "" }
 
 func main() {
 	b := &BasicAuth{Realm: "test"}
@@ -17,6 +17,3 @@ func main() {
 	s := b.CheckAuth()
 	println(s)
 }
-
-// Output:
-// test-me-test

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sync"
 )
 
@@ -17,9 +16,4 @@ func main() {
 	wg.Wait()
 }
 
-func print(state string) {
-	fmt.Println(state)
-}
-
-// Output:
-// test
+func print(state string) { _ = "STUB: not implemented"; return }

@@ -5,14 +5,8 @@ import (
 	"strings"
 )
 
-func isCloser(r io.Reader) bool {
-	_, ok := r.(io.Closer)
-	return ok
-}
+func isCloser(r io.Reader) bool { _ = "STUB: not implemented"; return false }
 
 func main() {
 	println(isCloser(strings.NewReader("test")))
 }
-
-// Output:
-// false

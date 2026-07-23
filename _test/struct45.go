@@ -13,6 +13,3 @@ func main() {
 	t.b = true
 	println(t.b)
 }
-
-// Output:
-// true

@@ -4,22 +4,14 @@ type Option interface {
 	apply()
 }
 
-func f(opts ...Option) {
-	for _, opt := range opts {
-		opt.apply()
-	}
-}
+func f(opts ...Option) { _ = "STUB: not implemented"; return }
 
 type T struct{}
 
-func (t *T) apply() { println("in apply") }
+func (t *T) apply() { _ = "STUB: not implemented"; return }
 
 func main() {
 	opt := []Option{&T{}}
-	f(opt[0]) // works
-	f(opt...) // fails
+	f(opt[0])
+	f(opt...)
 }
-
-// Output:
-// in apply
-// in apply

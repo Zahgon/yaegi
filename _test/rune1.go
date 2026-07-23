@@ -7,6 +7,3 @@ func main() {
 	t[0] = '$'
 	fmt.Println(t)
 }
-
-// Output:
-// [36 0]

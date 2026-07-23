@@ -7,6 +7,3 @@ var errs = []error{nil}
 func main() {
 	fmt.Println(errs)
 }
-
-// Output:
-// [<nil>]

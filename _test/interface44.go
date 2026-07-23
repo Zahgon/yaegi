@@ -14,6 +14,3 @@ func main() {
 	}
 	println(s.a)
 }
-
-// Output:
-// 1

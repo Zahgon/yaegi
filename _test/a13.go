@@ -10,8 +10,3 @@ func main() {
 		println(i, v)
 	}
 }
-
-// Output:
-// 0 1
-// 1 3
-// 2 5

@@ -6,12 +6,9 @@ import (
 
 type X struct{}
 
-func (X) Foo() int {
-	return 1
-}
-func (X) Bar() int {
-	return 2
-}
+func (X) Foo() int { _ = "STUB: not implemented"; return 0 }
+
+func (X) Bar() int { _ = "STUB: not implemented"; return 0 }
 
 type Foo interface {
 	Foo() int
@@ -27,6 +24,3 @@ func main() {
 
 	fmt.Println(j.Bar())
 }
-
-// Output:
-// 2

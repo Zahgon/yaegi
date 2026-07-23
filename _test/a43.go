@@ -12,6 +12,3 @@ const (
 func main() {
 	fmt.Println(T{})
 }
-
-// Output:
-// [0 0 0 0 0]

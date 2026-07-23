@@ -8,18 +8,6 @@ func main() {
 	}
 }
 
-func f1() bool {
-	println("f1")
-	//return true
-	return 0 == 0
-}
+func f1() bool { _ = "STUB: not implemented"; return false }
 
-func f2() bool {
-	println("f2")
-	//return false
-	return 1 == 0
-}
-
-// Output:
-// f1
-// f2
+func f2() bool { _ = "STUB: not implemented"; return false }

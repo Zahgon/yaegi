@@ -11,6 +11,3 @@ func main() {
 
 	fmt.Println(int64(large))
 }
-
-// Output:
-// 4611686018427387904

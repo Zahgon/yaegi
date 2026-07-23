@@ -14,6 +14,3 @@ func main() {
 	pub := key.Public().(*ecdsa.PublicKey)
 	println(pub.Params().Name)
 }
-
-// Output:
-// P-256

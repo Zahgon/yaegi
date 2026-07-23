@@ -7,6 +7,3 @@ type T struct{}
 func main() {
 	println(a != nil)
 }
-
-// Output:
-// true

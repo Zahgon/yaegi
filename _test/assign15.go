@@ -6,6 +6,3 @@ func main() {
 
 	_ = d
 }
-
-// Error:
-// _test/assign15.go:5:26: cannot use type chan<- struct {} as type <-chan struct {} in assignment

@@ -7,6 +7,3 @@ func main() {
 	c += 1
 	fmt.Printf("%T %v\n", c, c)
 }
-
-// Output:
-// complex128 (2+0i)

@@ -8,5 +8,3 @@ func main() {
 	var t time = "hello"
 	println(t)
 }
-
-// TODO: expected redeclaration error.

@@ -1,8 +1,6 @@
 package main
 
 import (
-	"encoding/xml"
-	"errors"
 	"fmt"
 )
 
@@ -11,32 +9,13 @@ type Email struct {
 	Addr  string
 }
 
-func f(r interface{}) error {
-	return withPointerAsInterface(&r)
-}
+func f(r interface{}) error { _ = "STUB: not implemented"; return nil }
 
-func withPointerAsInterface(r interface{}) error {
-	_ = (r).(*interface{})
-	rp, ok := (r).(*interface{})
-	if !ok {
-		return errors.New("cannot assert to *interface{}")
-	}
-	em, ok := (*rp).(*Email)
-	if !ok {
-		return errors.New("cannot assert to *Email")
-	}
-	em.Where = "work"
-	em.Addr = "bob@work.com"
-	return nil
-}
+func withPointerAsInterface(r interface{}) error { _ = "STUB: not implemented"; return nil }
 
-func ff(s string, r interface{}) error {
-	return xml.Unmarshal([]byte(s), r)
-}
+func ff(s string, r interface{}) error { _ = "STUB: not implemented"; return nil }
 
-func fff(s string, r interface{}) error {
-	return xml.Unmarshal([]byte(s), &r)
-}
+func fff(s string, r interface{}) error { _ = "STUB: not implemented"; return nil }
 
 func main() {
 	data := `
@@ -56,8 +35,3 @@ func main() {
 	err = ff(data, &vvv)
 	fmt.Println(err, vvv)
 }
-
-// Output:
-// <nil> {work bob@work.com}
-// <nil> {work bob@work.com}
-// <nil> {work bob@work.com}

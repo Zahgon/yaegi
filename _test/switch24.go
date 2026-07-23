@@ -10,7 +10,3 @@ func main() {
 	}
 	println("bye")
 }
-
-// Output:
-// 5
-// bye

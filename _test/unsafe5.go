@@ -21,6 +21,3 @@ func main() {
 
 	println(size, align, offset)
 }
-
-// Output:
-// 3 1 2

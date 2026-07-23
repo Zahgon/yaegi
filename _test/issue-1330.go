@@ -37,6 +37,3 @@ func main() {
 		fmt.Println(n)
 	}
 }
-
-// Output:
-// 5

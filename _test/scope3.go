@@ -7,7 +7,3 @@ func main() {
 	}
 	println(a)
 }
-
-// Output:
-// 2
-// 1

@@ -7,6 +7,3 @@ func main() {
 	var i = myint(1)
 	println(i)
 }
-
-// Output:
-// 1

@@ -12,6 +12,3 @@ func main() {
 
 	fmt.Printf("%T\n", fn1)
 }
-
-// Output:
-// func(...*time.Duration) string

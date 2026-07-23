@@ -8,6 +8,3 @@ import (
 func main() {
 	fmt.Println(math.Abs(-5))
 }
-
-// Output:
-// 5

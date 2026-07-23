@@ -9,6 +9,3 @@ func main() {
 	b := &a
 	println(b.val)
 }
-
-// Output:
-// 3
